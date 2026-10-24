@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full py-20 bg-[#EEE4DA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -18,7 +18,7 @@ export default function AboutSection() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ amount: 0.3 }} // 👈 triggers every time it enters viewport
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[#4D0E13]">
               About Mahadev Events
             </h2>
             <p className="text-lg text-gray-600 mb-6">
@@ -52,7 +52,7 @@ export default function AboutSection() {
                   transition={{ duration: 0.6, delay: i * 0.2 }}
                   viewport={{ amount: 0.3 }}
                 >
-                  <div className="text-3xl font-bold text-blue-600 mb-2">{item.num}</div>
+                  <div className="text-3xl font-bold text-[#0C3B2E] mb-2">{item.num}</div>
                   <div className="text-gray-600">{item.label}</div>
                 </motion.div>
               ))}

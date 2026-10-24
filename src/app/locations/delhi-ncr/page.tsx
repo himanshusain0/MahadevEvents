@@ -27,17 +27,17 @@ export const metadata: Metadata = {
 
 export default function DelhiKhatauliLocationPage() {
   return (
-    <main className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-white">
+    <main className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-[#EEE4DA]">
       {/* Breadcrumb Navigation */}
       <nav className="flex mb-8 text-sm" aria-label="Breadcrumb">
         <ol className="inline-flex items-center space-x-1 md:space-x-3">
           <li className="inline-flex items-center">
-            <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
+            <Link href="/" className="text-[#C8A49F] hover:text-[#0C3B2E]">Home</Link>
           </li>
           <li>
             <div className="flex items-center">
               <span className="mx-2 text-gray-400">/</span>
-              <Link href="/locations" className="text-gray-700 hover:text-blue-600">Locations</Link>
+              <Link href="/locations" className="text-[#C8A49F] hover:text-[#0C3B2E]">Locations</Link>
             </div>
           </li>
           <li aria-current="page">
@@ -52,32 +52,32 @@ export default function DelhiKhatauliLocationPage() {
       {/* Hero Section */}
       <div className="grid md:grid-cols-2 gap-8 mb-16">
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#4D0E13]">
             Wedding Decoration Service Provider in Delhi Khatauli – Mahadev Events Khatauli
           </h1>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-[#C8A49F] mb-4">
             <strong>Mahadev Events Khatauli</strong> is your trusted <strong>Wedding Decoration Service Provider in Delhi Khatauli</strong>, providing comprehensive outdoor Wedding Decoration solutions across the National Capital Region. We help businesses, brands, and political candidates reach their target audience through strategic Stage & Venue Decoration and Floral Decoration placements on major Khatauli highways and locations.
           </p>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-[#C8A49F] mb-4">
             From <strong>Stage & Venue Decoration Wedding Decoration on Delhi-Khatauli Expressway</strong> to <strong>Floral Decorations in Noida and Ghaziabad</strong>, our team covers the entire Khatauli region. We have premium Wedding Decoration locations across Delhi, Gurgaon, Noida, Ghaziabad, Faridabad, and all connecting highways.
           </p>
-          <div className="bg-indigo-50 p-6 rounded-lg mt-4">
+          <div className="bg-[#0C3B2E]/10 p-6 rounded-lg mt-4">
             <h2 className="text-xl font-bold mb-3">Why Choose Us for Delhi Khatauli Wedding Decoration?</h2>
             <ul className="space-y-2">
               <li className="flex items-start gap-2">
-                <span className="text-indigo-600 font-bold">✓</span>
+                <span className="text-[#0C3B2E] font-bold">✓</span>
                 <span><strong>10+ years</strong> serving Delhi Khatauli businesses</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-indigo-600 font-bold">✓</span>
+                <span className="text-[#0C3B2E] font-bold">✓</span>
                 <span><strong>Premium locations</strong> on all major highways and expressways</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-indigo-600 font-bold">✓</span>
+                <span className="text-[#0C3B2E] font-bold">✓</span>
                 <span><strong>Pan-Khatauli coverage</strong> – Delhi, Gurgaon, Noida, Ghaziabad, Faridabad</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-indigo-600 font-bold">✓</span>
+                <span className="text-[#0C3B2E] font-bold">✓</span>
                 <span><strong>End-to-end service</strong> – permits, design, printing, installation</span>
               </li>
             </ul>
@@ -94,7 +94,7 @@ export default function DelhiKhatauliLocationPage() {
 
       {/* Khatauli Coverage Areas */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Our Coverage in Delhi Khatauli</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Our Coverage in Delhi Khatauli</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             { 
@@ -146,9 +146,9 @@ export default function DelhiKhatauliLocationPage() {
               key: "Connecting all Khatauli cities"
             },
           ].map((area, i) => (
-            <div key={i} className="border rounded-lg p-5 shadow-sm bg-white">
-              <h3 className="text-xl font-bold mb-2 text-gray-900">{area.city}</h3>
-              <p className="text-indigo-600 font-medium text-sm mb-2">{area.key}</p>
+            <div key={i} className="border rounded-lg p-5 shadow-sm bg-[#EEE4DA]">
+              <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">{area.city}</h3>
+              <p className="text-[#0C3B2E] font-medium text-sm mb-2">{area.key}</p>
               <p className="text-gray-600 text-sm mb-1"><span className="font-semibold">Areas:</span> {area.areas}</p>
               <p className="text-gray-600 text-sm"><span className="font-semibold">Highways:</span> {area.highways}</p>
             </div>
@@ -158,49 +158,49 @@ export default function DelhiKhatauliLocationPage() {
 
       {/* Services in Khatauli */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Our Wedding Decoration Services in Delhi Khatauli</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Our Wedding Decoration Services in Delhi Khatauli</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Stage & Venue Decoration Wedding Decoration Khatauli</h3>
+          <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Stage & Venue Decoration Wedding Decoration Khatauli</h3>
             <p className="text-gray-600 mb-3">Premium Stage & Venue Decoration placements on all Khatauli highways, expressways, and city locations. Sizes from 10x10 to 40x20 ft.</p>
-            <span className="text-indigo-600 font-medium">Learn more →</span>
+            <span className="text-[#0C3B2E] font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/Floral Decoration-Wedding Decoration-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Floral Decoration Wedding Decoration Khatauli</h3>
+          <Link href="/services/Floral Decoration-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Floral Decoration Wedding Decoration Khatauli</h3>
             <p className="text-gray-600 mb-3">Large-format Floral Decorations on Delhi-Khatauli Expressway, Noida Expressway, and other major Khatauli highways.</p>
-            <span className="text-indigo-600 font-medium">Learn more →</span>
+            <span className="text-[#0C3B2E] font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/digital-wall-painting-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Wall Painting Khatauli</h3>
+          <Link href="/services/digital-wall-painting-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Wall Painting Khatauli</h3>
             <p className="text-gray-600 mb-3">Cost-effective wall advertisements at high-visibility walls across Khatauli cities and industrial areas.</p>
-            <span className="text-indigo-600 font-medium">Learn more →</span>
+            <span className="text-[#0C3B2E] font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/led-display-Wedding Decoration-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">LED Display Khatauli</h3>
+          <Link href="/services/led-display-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">LED Display Khatauli</h3>
             <p className="text-gray-600 mb-3">Dynamic digital Floral Decorations with videos and rotating content at premium Khatauli locations.</p>
-            <span className="text-indigo-600 font-medium">Learn more →</span>
+            <span className="text-[#0C3B2E] font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/vehicle-branding-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Vehicle Branding Khatauli</h3>
+          <Link href="/services/vehicle-branding-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Vehicle Branding Khatauli</h3>
             <p className="text-gray-600 mb-3">Mobile Wedding Decoration across Khatauli with full fleet branding for maximum reach.</p>
-            <span className="text-indigo-600 font-medium">Learn more →</span>
+            <span className="text-[#0C3B2E] font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/flex-printing-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Flex Printing Khatauli</h3>
+          <Link href="/services/flex-printing-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Flex Printing Khatauli</h3>
             <p className="text-gray-600 mb-3">High-quality flex printing for Stage & Venue Decorations, banners, and event materials. Fast delivery across Khatauli.</p>
-            <span className="text-indigo-600 font-medium">Learn more →</span>
+            <span className="text-[#0C3B2E] font-medium">Learn more →</span>
           </Link>
         </div>
       </section>
 
       {/* Prime Highway Locations */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Prime Highway Wedding Decoration Locations in Khatauli</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Prime Highway Wedding Decoration Locations in Khatauli</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {[
             {
@@ -252,10 +252,10 @@ export default function DelhiKhatauliLocationPage() {
               highlights: "Connects Delhi to Noida, premium visibility"
             },
           ].map((highway, i) => (
-            <div key={i} className="border rounded-lg p-6 shadow-sm bg-white">
+            <div key={i} className="border rounded-lg p-6 shadow-sm bg-[#EEE4DA]">
               <h3 className="text-xl font-bold mb-2 text-indigo-700">{highway.highway}</h3>
-              <p className="text-indigo-600 font-semibold mb-2">{highway.traffic}</p>
-              <p className="text-gray-700 mb-2"><span className="font-semibold">Key locations:</span> {highway.locations}</p>
+              <p className="text-[#0C3B2E] font-semibold mb-2">{highway.traffic}</p>
+              <p className="text-[#C8A49F] mb-2"><span className="font-semibold">Key locations:</span> {highway.locations}</p>
               <p className="text-gray-600 text-sm">{highway.highlights}</p>
             </div>
           ))}
@@ -263,16 +263,16 @@ export default function DelhiKhatauliLocationPage() {
       </section>
 
       {/* About Khatauli Market */}
-      <section className="mb-16 bg-gray-50 p-8 rounded-2xl">
-        <h2 className="text-3xl font-bold mb-6 text-gray-900">About Wedding Decoration in Delhi Khatauli</h2>
+      <section className="mb-16 bg-[#D8C4AC] p-8 rounded-2xl">
+        <h2 className="text-3xl font-bold mb-6 text-[#4D0E13]">About Wedding Decoration in Delhi Khatauli</h2>
         <div className="prose prose-lg max-w-none">
-          <p className="text-gray-700 mb-4">
+          <p className="text-[#C8A49F] mb-4">
             Delhi Khatauli is India&apos;s largest and most important Wedding Decoration market, with a population exceeding 46 million. It encompasses Delhi and its satellite cities – Gurgaon, Noida, Ghaziabad, Faridabad – connected by a network of expressways and highways.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-[#C8A49F] mb-4">
             <strong>Key facts about Delhi Khatauli for advertisers:</strong>
           </p>
-          <ul className="list-disc pl-6 mb-4 text-gray-700">
+          <ul className="list-disc pl-6 mb-4 text-[#C8A49F]">
             <li><strong>Population:</strong> 46+ million (largest urban agglomeration in India)</li>
             <li><strong>Vehicle population:</strong> 10+ million vehicles</li>
             <li><strong>Corporate hub:</strong> Thousands of corporate offices, MNCs, and businesses</li>
@@ -280,7 +280,7 @@ export default function DelhiKhatauliLocationPage() {
             <li><strong>Expressways:</strong> Delhi-Khatauli, Noida, Dwarka, Eastern/Western Peripheral</li>
             <li><strong>Commercial centers:</strong> Multiple malls, commercial districts, and markets</li>
           </ul>
-          <p className="text-gray-700">
+          <p className="text-[#C8A49F]">
             Outdoor Wedding Decoration in Delhi Khatauli offers unparalleled reach to India&apos;s most affluent and diverse consumer base. Highway Stage & Venue Decorations on expressways provide millions of impressions daily, while city locations target specific demographics.
           </p>
         </div>
@@ -288,10 +288,10 @@ export default function DelhiKhatauliLocationPage() {
 
       {/* Pricing Guide */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-6 text-gray-900">Delhi Khatauli Wedding Decoration Rates (Indicative)</h2>
-        <div className="bg-white border-2 border-gray-200 rounded-xl p-8">
+        <h2 className="text-3xl font-bold mb-6 text-[#4D0E13]">Delhi Khatauli Wedding Decoration Rates (Indicative)</h2>
+        <div className="bg-[#EEE4DA] border-2 border-gray-200 rounded-xl p-8">
           <div className="overflow-x-auto mb-8">
-            <table className="min-w-full bg-white border">
+            <table className="min-w-full bg-[#EEE4DA] border">
               <thead className="bg-gray-100">
                 <tr>
                   <th className="py-3 px-4 text-left font-semibold">Location Type</th>
@@ -305,7 +305,7 @@ export default function DelhiKhatauliLocationPage() {
                   <td className="py-3 px-4">20x10 ft</td>
                   <td className="py-3 px-4">₹75,000 - ₹1,50,000</td>
                 </tr>
-                <tr className="border-t bg-gray-50">
+                <tr className="border-t bg-[#D8C4AC]">
                   <td className="py-3 px-4 font-medium">Noida Expressway</td>
                   <td className="py-3 px-4">20x10 ft</td>
                   <td className="py-3 px-4">₹60,000 - ₹1,20,000</td>
@@ -315,7 +315,7 @@ export default function DelhiKhatauliLocationPage() {
                   <td className="py-3 px-4">20x10 ft</td>
                   <td className="py-3 px-4">₹50,000 - ₹1,00,000</td>
                 </tr>
-                <tr className="border-t bg-gray-50">
+                <tr className="border-t bg-[#D8C4AC]">
                   <td className="py-3 px-4 font-medium">NH-48 (Delhi-Jaipur Highway)</td>
                   <td className="py-3 px-4">20x10 ft</td>
                   <td className="py-3 px-4">₹60,000 - ₹1,20,000</td>
@@ -325,7 +325,7 @@ export default function DelhiKhatauliLocationPage() {
                   <td className="py-3 px-4">15x10 ft</td>
                   <td className="py-3 px-4">₹25,000 - ₹50,000</td>
                 </tr>
-                <tr className="border-t bg-gray-50">
+                <tr className="border-t bg-[#D8C4AC]">
                   <td className="py-3 px-4 font-medium">Noida/Gurgaon City Locations</td>
                   <td className="py-3 px-4">15x10 ft</td>
                   <td className="py-3 px-4">₹30,000 - ₹60,000</td>
@@ -334,10 +334,10 @@ export default function DelhiKhatauliLocationPage() {
             </table>
           </div>
           <p className="text-gray-600 text-sm">*Rates are indicative and subject to location availability, duration, and season. Contact us for exact quotes.</p>
-          <div className="bg-indigo-600 text-white p-6 rounded-lg text-center mt-6">
+          <div className="bg-[#0C3B2E] text-white p-6 rounded-lg text-center mt-6">
             <p className="text-xl font-bold mb-2">Need Khatauli Wedding Decoration?</p>
             <p className="text-lg mb-4">Call us for availability and customized packages</p>
-            <a href="tel:+918218127638" className="inline-block bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+            <a href="tel:+918218127638" className="inline-block bg-[#EEE4DA] text-[#0C3B2E] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
               Call +91 94564 97636
             </a>
           </div>
@@ -346,7 +346,7 @@ export default function DelhiKhatauliLocationPage() {
 
       {/* FAQ Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Frequently Asked Questions</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Frequently Asked Questions</h2>
         <div className="space-y-6">
           {[
             {
@@ -375,24 +375,24 @@ export default function DelhiKhatauliLocationPage() {
             }
           ].map((faq, i) => (
             <div key={i} className="border-b border-gray-200 pb-6">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">{faq.q}</h3>
-              <p className="text-gray-700">{faq.a}</p>
+              <h3 className="text-xl font-semibold mb-3 text-[#4D0E13]">{faq.q}</h3>
+              <p className="text-[#C8A49F]">{faq.a}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* Nearby Locations */}
-      <section className="mb-16 bg-gray-50 p-8 rounded-2xl">
-        <h2 className="text-2xl font-bold mb-6 text-gray-900">Our Other Service Locations</h2>
+      <section className="mb-16 bg-[#D8C4AC] p-8 rounded-2xl">
+        <h2 className="text-2xl font-bold mb-6 text-[#4D0E13]">Our Other Service Locations</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          <Link href="/locations/Khatauli" className="text-indigo-600 hover:underline">Khatauli</Link>
-          <Link href="/locations/muzaffarnagar" className="text-indigo-600 hover:underline">Muzaffarnagar</Link>
-          <Link href="/locations/shamli" className="text-indigo-600 hover:underline">Shamli</Link>
-          <Link href="/locations/saharanpur" className="text-indigo-600 hover:underline">Saharanpur</Link>
-          <Link href="/locations/baghpat" className="text-indigo-600 hover:underline">Baghpat</Link>
-          <Link href="/locations/hapur" className="text-indigo-600 hover:underline">Hapur</Link>
-          <Link href="/locations/delhi" className="text-indigo-600 hover:underline">Delhi</Link>
+          <Link href="/locations/Khatauli" className="text-[#0C3B2E] hover:underline">Khatauli</Link>
+          <Link href="/locations/muzaffarnagar" className="text-[#0C3B2E] hover:underline">Muzaffarnagar</Link>
+          <Link href="/locations/shamli" className="text-[#0C3B2E] hover:underline">Shamli</Link>
+          <Link href="/locations/saharanpur" className="text-[#0C3B2E] hover:underline">Saharanpur</Link>
+          <Link href="/locations/baghpat" className="text-[#0C3B2E] hover:underline">Baghpat</Link>
+          <Link href="/locations/hapur" className="text-[#0C3B2E] hover:underline">Hapur</Link>
+          <Link href="/locations/delhi" className="text-[#0C3B2E] hover:underline">Delhi</Link>
         </div>
       </section>
     </main>

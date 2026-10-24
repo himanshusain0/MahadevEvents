@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 
 export default function FlexPrintingPage() {
   return (
-    <main className="bg-white">
+    <main className="bg-[#EEE4DA]">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-red-900 text-white">
         <div className="absolute inset-0 opacity-20">
@@ -63,7 +63,7 @@ export default function FlexPrintingPage() {
               </Link>
               <a 
                 href="#types" 
-                className="bg-transparent border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg font-semibold transition"
+                className="bg-transparent border-2 border-white hover:bg-[#EEE4DA]/10 px-8 py-3 rounded-lg font-semibold transition"
               >
                 Explore Options
               </a>
@@ -81,7 +81,7 @@ export default function FlexPrintingPage() {
             { number: "24-48", label: "Hour Turnaround", icon: "⚡" },
             { number: "100%", label: "Quality Guarantee", icon: "✅" },
           ].map((stat, i) => (
-            <div key={i} className="bg-white rounded-xl shadow-lg p-6 text-center border border-gray-100">
+            <div key={i} className="bg-[#EEE4DA] rounded-xl shadow-lg p-6 text-center border border-gray-100">
               <div className="text-3xl mb-2">{stat.icon}</div>
               <div className="text-2xl md:text-3xl font-bold text-red-600">{stat.number}</div>
               <div className="text-gray-600 text-sm mt-1">{stat.label}</div>
@@ -97,11 +97,11 @@ export default function FlexPrintingPage() {
         <div className="grid md:grid-cols-2 gap-12 mb-20 items-center">
           <div>
             <span className="text-red-600 font-semibold text-sm uppercase tracking-wide">What We Do</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-[#4D0E13]">
               Professional Flex Printing Services in Khatauli
             </h2>
             <p className="text-gray-600 text-lg mb-4 leading-relaxed">
-              <strong className="text-gray-900">Mahadev Events Khatauli</strong> offers premium <strong className="text-gray-900">flex printing in Khatauli</strong> for all your Wedding Decoration needs. From massive Stage & Venue Decorations to event banners, we deliver exceptional print quality that makes your brand stand out.
+              <strong className="text-[#4D0E13]">Mahadev Events Khatauli</strong> offers premium <strong className="text-[#4D0E13]">flex printing in Khatauli</strong> for all your Wedding Decoration needs. From massive Stage & Venue Decorations to event banners, we deliver exceptional print quality that makes your brand stand out.
             </p>
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
               Using state-of-the-art large-format printers and premium materials, our flex prints feature vibrant colors, sharp details, and weather-resistant properties. Whether you need a single banner or bulk printing for a city-wide campaign, we ensure consistent quality and fast delivery.
@@ -120,7 +120,7 @@ export default function FlexPrintingPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-700">{feature}</span>
+                  <span className="text-[#C8A49F]">{feature}</span>
                 </div>
               ))}
             </div>
@@ -139,7 +139,7 @@ export default function FlexPrintingPage() {
         <div id="types" className="mb-20">
           <div className="text-center mb-12">
             <span className="text-red-600 font-semibold text-sm uppercase tracking-wide">Our Services</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Types of Flex Printing
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -197,9 +197,9 @@ export default function FlexPrintingPage() {
                 features: ["Gallery-quality", "Stretched frames", "Office decor"]
               }
             ].map((item, i) => (
-              <div key={i} className="group bg-white border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <div key={i} className="group bg-[#EEE4DA] border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <div className="text-4xl mb-4">{item.icon}</div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900">{item.type}</h3>
+                <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">{item.type}</h3>
                 <p className="text-gray-600 text-sm mb-3">{item.desc}</p>
                 <ul className="space-y-1">
                   {item.features.map((feature, idx) => (
@@ -217,7 +217,7 @@ export default function FlexPrintingPage() {
         <div className="mb-20">
           <div className="text-center mb-12">
             <span className="text-red-600 font-semibold text-sm uppercase tracking-wide">Applications</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Common Uses of Flex Printing
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -231,7 +231,7 @@ export default function FlexPrintingPage() {
               "Trade Show Booths", "Retail Store Displays", "Corporate Events", "Wedding Banners",
               "Educational Events", "Sports Events", "Vehicle Branding", "Window Graphics"
             ].map((use, i) => (
-              <span key={i} className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-red-100 hover:text-red-700 transition cursor-default">
+              <span key={i} className="px-4 py-2 bg-gray-100 text-[#C8A49F] rounded-full text-sm font-medium hover:bg-red-100 hover:text-red-700 transition cursor-default">
                 {use}
               </span>
             ))}
@@ -239,10 +239,10 @@ export default function FlexPrintingPage() {
         </div>
 
         {/* Why Choose Us Section */}
-        <div className="mb-20 bg-gray-50 rounded-2xl p-8 md:p-12">
+        <div className="mb-20 bg-[#D8C4AC] rounded-2xl p-8 md:p-12">
           <div className="text-center mb-12">
             <span className="text-red-600 font-semibold text-sm uppercase tracking-wide">Why Choose Us</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Why Mahadev Events Khatauli for Flex Printing?
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -282,9 +282,9 @@ export default function FlexPrintingPage() {
                 desc: "We deliver printed materials across Khatauli, Khatauli, and other cities." 
               }
             ].map((item, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition">
+              <div key={i} className="bg-[#EEE4DA] rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition">
                 <div className="text-4xl mb-3">{item.icon}</div>
-                <h3 className="text-lg font-bold mb-2 text-gray-900">{item.title}</h3>
+                <h3 className="text-lg font-bold mb-2 text-[#4D0E13]">{item.title}</h3>
                 <p className="text-gray-600 text-sm">{item.desc}</p>
               </div>
             ))}
@@ -295,7 +295,7 @@ export default function FlexPrintingPage() {
         <div className="mb-20">
           <div className="text-center mb-12">
             <span className="text-red-600 font-semibold text-sm uppercase tracking-wide">Process</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Our Flex Printing Process
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -313,7 +313,7 @@ export default function FlexPrintingPage() {
                 <div className="w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                   {item.step}
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900">{item.title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">{item.title}</h3>
                 <p className="text-gray-600 text-sm">{item.desc}</p>
               </div>
             ))}
@@ -324,7 +324,7 @@ export default function FlexPrintingPage() {
         <div className="mb-0">
           <div className="text-center mb-12">
             <span className="text-red-600 font-semibold text-sm uppercase tracking-wide">FAQ</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Frequently Asked Questions
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -367,7 +367,7 @@ export default function FlexPrintingPage() {
               }
             ].map((faq, i) => (
               <div key={i} className="border border-gray-200 rounded-xl p-6 hover:shadow-md transition">
-                <h3 className="text-lg font-bold mb-3 text-gray-900">{faq.q}</h3>
+                <h3 className="text-lg font-bold mb-3 text-[#4D0E13]">{faq.q}</h3>
                 <p className="text-gray-600 leading-relaxed">{faq.a}</p>
               </div>
             ))}

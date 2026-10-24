@@ -31,8 +31,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-white shadow-md py-2"
-          : "bg-white/90 backdrop-blur-sm shadow-sm py-4"
+          ? "bg-[#EEE4DA] shadow-md py-2"
+          : "bg-[#EEE4DA]/90 backdrop-blur-sm shadow-sm py-4"
       }`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
@@ -41,7 +41,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-3 group">
           <div className="relative w-11 h-11">
             <Image
-              src="/images/website/logo2.png"
+              src="/images/website/logo.png"
               alt="Mahadev Events Wedding Decoration Solutions"
               fill
               priority
@@ -49,7 +49,7 @@ export default function Navbar() {
             />
           </div>
 
-          <span className="text-2xl font-bold text-yellow-400 tracking-wide">
+          <span className="text-2xl font-bold text-[#4D0E13] tracking-wide">
             Mahadev Events
           </span>
         </Link>
@@ -65,7 +65,7 @@ export default function Navbar() {
             }`}
           >
             Home
-            <span className="absolute left-0 bottom-[-6px] h-[2px] w-0 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 bottom-[-6px] h-[2px] w-0 bg-[#4D0E13] transition-all duration-300 group-hover:w-full"></span>
           </Link>
 
           <Link
@@ -77,7 +77,7 @@ export default function Navbar() {
             }`}
           >
             Services
-            <span className="absolute left-0 bottom-[-6px] h-[2px] w-0 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 bottom-[-6px] h-[2px] w-0 bg-[#4D0E13] transition-all duration-300 group-hover:w-full"></span>
           </Link>
 
           <Link
@@ -89,7 +89,7 @@ export default function Navbar() {
             }`}
           >
             Gallery
-            <span className="absolute left-0 bottom-[-6px] h-[2px] w-0 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 bottom-[-6px] h-[2px] w-0 bg-[#4D0E13] transition-all duration-300 group-hover:w-full"></span>
           </Link>
 
           <Link
@@ -101,7 +101,7 @@ export default function Navbar() {
             }`}
           >
             Contact
-            <span className="absolute left-0 bottom-[-6px] h-[2px] w-0 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 bottom-[-6px] h-[2px] w-0 bg-[#4D0E13] transition-all duration-300 group-hover:w-full"></span>
           </Link>
         </div>
 
@@ -111,17 +111,17 @@ export default function Navbar() {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <span
-            className={`block h-[3px] w-6 bg-white transition ${
+            className={`block h-[3px] w-6 bg-[#EEE4DA] transition ${
               isMenuOpen ? "rotate-45 translate-y-2" : ""
             }`}
           ></span>
           <span
-            className={`block h-[3px] w-6 bg-white transition ${
+            className={`block h-[3px] w-6 bg-[#EEE4DA] transition ${
               isMenuOpen ? "opacity-0" : ""
             }`}
           ></span>
           <span
-            className={`block h-[3px] w-6 bg-white transition ${
+            className={`block h-[3px] w-6 bg-[#EEE4DA] transition ${
               isMenuOpen ? "-rotate-45 -translate-y-2" : ""
             }`}
           ></span>
@@ -132,15 +132,15 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="md:hidden bg-black/95 backdrop-blur-xl mt-4 p-6">
           <div className="flex flex-col gap-6 text-lg">
-            <Link href="/" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-yellow-400">
+            <Link href="/" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-[#4D0E13]">
               Home
             </Link>
 
-            <Link href="/services" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-yellow-400">
+            <Link href="/services" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-[#4D0E13]">
               Services
             </Link>
 
-            <Link href="/gallery" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-yellow-400">
+            <Link href="/gallery" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-[#4D0E13]">
               Gallery
             </Link>
             <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-yellow-s400">

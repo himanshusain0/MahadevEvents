@@ -37,11 +37,11 @@ export default function AboutPage() {
           }}
         />
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center text-gray-900">
+        <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center text-[#4D0E13]">
           Mahadev Events – Premier Wedding Decoration Services in Khatauli
         </h1>
 
-        <div className="prose prose-lg mx-auto text-gray-700">
+        <div className="prose prose-lg mx-auto text-[#C8A49F]">
 
           <p className="text-lg mb-6">
             With over 10 years of experience in the wedding decoration industry, <strong>Mahadev Events</strong> has established itself as a trusted provider of beautiful and creative wedding decoration services. Based in Saini Nagar, Khatauli M. Nagar, we specialize in transforming wedding venues into elegant and memorable spaces with stunning decorations, stage setups, floral arrangements, and customized event designs.

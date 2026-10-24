@@ -98,7 +98,7 @@ const allServices = [
 
 export default function ServicesSection() {
   return (
-    <section className="w-full py-10 mb-1 md:py-20 bg-white overflow-hidden">
+    <section className="w-full py-10 mb-1 md:py-20 bg-[#EEE4DA] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 md:mb-28">
         {/* Section Header */}
         <motion.div
@@ -108,7 +108,7 @@ export default function ServicesSection() {
           viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gray-900">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#4D0E13]">
             Our Wedding Decoration Services
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
@@ -138,10 +138,10 @@ export default function ServicesSection() {
                   transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                   <div className="flex items-center gap-4 mb-4 md:mb-6">
-                    <div className="p-2 md:p-3 bg-blue-50 rounded-xl">
+                    <div className="p-2 md:p-3 bg-[#0C3B2E]/10 rounded-xl">
                       {service.icon}
                     </div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#4D0E13]">
                       {service.title}
                     </h2>
                   </div>
@@ -157,7 +157,7 @@ export default function ServicesSection() {
                           size={16}
                           className="text-blue-500 flex-shrink-0"
                         />
-                        <span className="text-gray-700 text-sm md:text-base">
+                        <span className="text-[#C8A49F] text-sm md:text-base">
                           {feature}
                         </span>
                       </li>
@@ -167,7 +167,7 @@ export default function ServicesSection() {
                   <div className="mt-6">
                     <Link
                       href={service.path}
-                      className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:gap-3"
+                      className="inline-flex items-center gap-2 bg-[#0C3B2E] hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:gap-3"
                     >
                       Learn More
                       <ArrowRight size={18} />

@@ -39,7 +39,7 @@ const dwpGalleryImages = [
 
 export default function DigitalWallPaintingPage() {
   return (
-    <main className="bg-white">
+    <main className="bg-[#EEE4DA]">
       {/* Hero Section - Modern Layout */}
       <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 text-white">
         <div className="absolute inset-0 opacity-20">
@@ -68,13 +68,13 @@ export default function DigitalWallPaintingPage() {
             <div className="flex flex-wrap gap-4">
               <Link 
                 href="/contact" 
-                className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition shadow-lg"
+                className="bg-[#0C3B2E] hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition shadow-lg"
               >
                 Get a Quote
               </Link>
               <a 
                 href="#gallery" 
-                className="bg-transparent border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg font-semibold transition"
+                className="bg-transparent border-2 border-white hover:bg-[#EEE4DA]/10 px-8 py-3 rounded-lg font-semibold transition"
               >
                 View Portfolio
               </a>
@@ -92,9 +92,9 @@ export default function DigitalWallPaintingPage() {
             { number: "8+", label: "Cities Covered", icon: "🏙️" },
             { number: "100%", label: "Client Satisfaction", icon: "⭐" },
           ].map((stat, i) => (
-            <div key={i} className="bg-white rounded-xl shadow-lg p-6 text-center border border-gray-100">
+            <div key={i} className="bg-[#EEE4DA] rounded-xl shadow-lg p-6 text-center border border-gray-100">
               <div className="text-3xl mb-2">{stat.icon}</div>
-              <div className="text-2xl md:text-3xl font-bold text-blue-600">{stat.number}</div>
+              <div className="text-2xl md:text-3xl font-bold text-[#0C3B2E]">{stat.number}</div>
               <div className="text-gray-600 text-sm mt-1">{stat.label}</div>
             </div>
           ))}
@@ -107,12 +107,12 @@ export default function DigitalWallPaintingPage() {
         {/* What is Theme Decoration */}
         <div className="grid md:grid-cols-2 gap-12 mb-20 items-center">
           <div>
-            <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">What We Do</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-gray-900">
+            <span className="text-[#0C3B2E] font-semibold text-sm uppercase tracking-wide">What We Do</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-[#4D0E13]">
               Premium Theme Decoration Services in Khatauli
             </h2>
             <p className="text-gray-600 text-lg mb-4 leading-relaxed">
-              <strong className="text-gray-900">Mahadev Events Khatauli</strong> is the leading provider of <strong className="text-gray-900">Theme Decoration in Khatauli</strong>. We transform high-traffic walls into eye-catching brand advertisements that work 24/7.
+              <strong className="text-[#4D0E13]">Mahadev Events Khatauli</strong> is the leading provider of <strong className="text-[#4D0E13]">Theme Decoration in Khatauli</strong>. We transform high-traffic walls into eye-catching brand advertisements that work 24/7.
             </p>
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
               Using state-of-the-art digital printing technology and premium weather-resistant materials, our wall paintings deliver exceptional visual impact that lasts for years. From Delhi Road to Garh Road, from educational hubs to commercial corridors—we have prime wall Wedding Decoration locations across the city.
@@ -125,12 +125,12 @@ export default function DigitalWallPaintingPage() {
                 "Maintenance support for lasting quality"
               ].map((feature, i) => (
                 <div key={i} className="flex items-center gap-3">
-                  <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center">
+                  <div className="w-5 h-5 bg-[#0C3B2E] rounded-full flex items-center justify-center">
                     <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-700">{feature}</span>
+                  <span className="text-[#C8A49F]">{feature}</span>
                 </div>
               ))}
             </div>
@@ -148,8 +148,8 @@ export default function DigitalWallPaintingPage() {
         {/* Prime Locations in Khatauli */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">Prime Locations</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#0C3B2E] font-semibold text-sm uppercase tracking-wide">Prime Locations</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Strategic Wall Wedding Decoration Locations in Khatauli
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -195,10 +195,10 @@ export default function DigitalWallPaintingPage() {
                 icon: "🌾"
               }
             ].map((location, i) => (
-              <div key={i} className="group bg-white border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <div key={i} className="group bg-[#EEE4DA] border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <div className="text-4xl mb-4">{location.icon}</div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900">{location.name}</h3>
-                <p className="text-blue-600 font-semibold text-sm mb-3">{location.traffic}</p>
+                <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">{location.name}</h3>
+                <p className="text-[#0C3B2E] font-semibold text-sm mb-3">{location.traffic}</p>
                 <p className="text-gray-600">{location.desc}</p>
               </div>
             ))}
@@ -208,8 +208,8 @@ export default function DigitalWallPaintingPage() {
         {/* Gallery Section - 7 Images */}
         <div id="gallery" className="mb-20">
           <div className="text-center mb-12">
-            <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">Portfolio</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#0C3B2E] font-semibold text-sm uppercase tracking-wide">Portfolio</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Our Wall Painting Projects
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -252,10 +252,10 @@ export default function DigitalWallPaintingPage() {
         </div>
 
         {/* Process Section */}
-        <div className="mb-20 bg-gray-50 rounded-2xl p-8 md:p-12">
+        <div className="mb-20 bg-[#D8C4AC] rounded-2xl p-8 md:p-12">
           <div className="text-center mb-12">
-            <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">How We Work</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#0C3B2E] font-semibold text-sm uppercase tracking-wide">How We Work</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Our Wall Painting Process
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -270,10 +270,10 @@ export default function DigitalWallPaintingPage() {
               { step: "04", title: "Installation", desc: "Professional application with quality adhesives" },
             ].map((item, i) => (
               <div key={i} className="text-center">
-                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                <div className="w-16 h-16 bg-[#0C3B2E] text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                   {item.step}
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900">{item.title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">{item.title}</h3>
                 <p className="text-gray-600">{item.desc}</p>
               </div>
             ))}
@@ -283,8 +283,8 @@ export default function DigitalWallPaintingPage() {
         {/* Industries We Serve */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">Industries</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#0C3B2E] font-semibold text-sm uppercase tracking-wide">Industries</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Who We Serve
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -297,7 +297,7 @@ export default function DigitalWallPaintingPage() {
               "Healthcare", "Banking & Finance", "FMCG", "Hospitality",
               "Political Campaigns", "Jewelry", "Electronics", "Fitness"
             ].map((industry, i) => (
-              <span key={i} className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-blue-100 hover:text-blue-700 transition">
+              <span key={i} className="px-4 py-2 bg-gray-100 text-[#C8A49F] rounded-full text-sm font-medium hover:bg-blue-100 hover:text-blue-700 transition">
                 {industry}
               </span>
             ))}
@@ -307,8 +307,8 @@ export default function DigitalWallPaintingPage() {
         {/* FAQ Section */}
         <div className="mb-0">
           <div className="text-center mb-12">
-            <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">FAQ</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#0C3B2E] font-semibold text-sm uppercase tracking-wide">FAQ</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Frequently Asked Questions
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -343,7 +343,7 @@ export default function DigitalWallPaintingPage() {
               }
             ].map((faq, i) => (
               <div key={i} className="border border-gray-200 rounded-xl p-6 hover:shadow-md transition">
-                <h3 className="text-lg font-bold mb-3 text-gray-900">{faq.q}</h3>
+                <h3 className="text-lg font-bold mb-3 text-[#4D0E13]">{faq.q}</h3>
                 <p className="text-gray-600 leading-relaxed">{faq.a}</p>
               </div>
             ))}

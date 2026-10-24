@@ -57,14 +57,14 @@ const blogPosts = [
 export default function BlogPage() {
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Wedding Decoration Blog & Insights</h1>
+      <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#4D0E13]">Wedding Decoration Blog & Insights</h1>
       <p className="text-xl text-gray-600 mb-12">Expert tips, guides, and insights for outdoor Wedding Decoration in Khatauli & Khatauli</p>
 
       <div className="space-y-8">
         {blogPosts.map((post) => (
           <article key={post.slug} className="border-b pb-8">
             <Link href={`/blog/${post.slug}`}>
-              <h2 className="text-2xl font-semibold mb-2 hover:text-blue-600 transition">{post.title}</h2>
+              <h2 className="text-2xl font-semibold mb-2 hover:text-[#0C3B2E] transition">{post.title}</h2>
             </Link>
             <div className="flex items-center text-sm text-gray-500 mb-3">
               <span>{post.date}</span>
@@ -73,8 +73,8 @@ export default function BlogPage() {
               <span className="mx-2">•</span>
               <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded">{post.category}</span>
             </div>
-            <p className="text-gray-700 mb-3">{post.excerpt}</p>
-            <Link href={`/blog/${post.slug}`} className="text-blue-600 font-medium hover:underline">
+            <p className="text-[#C8A49F] mb-3">{post.excerpt}</p>
+            <Link href={`/blog/${post.slug}`} className="text-[#0C3B2E] font-medium hover:underline">
               Read More →
             </Link>
           </article>

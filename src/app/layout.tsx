@@ -63,7 +63,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="light">
-      <body className={`${inter.className} flex flex-col min-h-screen bg-white`}>
+      <body className={`${inter.className} flex flex-col min-h-screen bg-[#EEE4DA]`}>
         <Navbar />
         <main className="flex-1 w-full pt-16">{children}</main>
         <CtaSection />

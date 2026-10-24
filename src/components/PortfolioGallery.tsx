@@ -62,10 +62,10 @@ export default function PortfolioGallery() {
   const filteredItems = activeCategory === "All" ? portfolioItems : portfolioItems.filter(item => item.category === activeCategory);
 
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full py-20 bg-[#EEE4DA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Our Portfolio</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#4D0E13]">Our Portfolio</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">Explore our diverse range of successful outdoor Wedding Decoration projects across Uttar Pradesh</p>
         </div>
         <div className="flex justify-center flex-wrap gap-4 mb-12">
@@ -73,7 +73,7 @@ export default function PortfolioGallery() {
             <button 
               key={category} 
               onClick={() => setActiveCategory(category)} 
-              className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${ activeCategory === category ? 'bg-blue-600 text-white shadow-lg' : 'bg-gray-100 text-gray-700 hover:bg-blue-100 hover:text-blue-700' }`}>
+              className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${ activeCategory === category ? 'bg-[#0C3B2E] text-white shadow-lg' : 'bg-gray-100 text-[#C8A49F] hover:bg-blue-100 hover:text-blue-700' }`}>
               {category}
             </button>
           ))}
@@ -90,9 +90,9 @@ export default function PortfolioGallery() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
-              <div className="p-6 bg-white">
-                <span className="text-sm text-blue-600 font-semibold">{item.category}</span>
-                <h3 className="text-xl font-bold text-gray-900 mt-2 mb-2">{item.title}</h3>
+              <div className="p-6 bg-[#EEE4DA]">
+                <span className="text-sm text-[#0C3B2E] font-semibold">{item.category}</span>
+                <h3 className="text-xl font-bold text-[#4D0E13] mt-2 mb-2">{item.title}</h3>
                 <p className="text-gray-600 text-sm mb-2">{item.description}</p>
                 <p className="text-gray-500 text-xs">Location: {item.location}</p>
               </div>
@@ -101,7 +101,7 @@ export default function PortfolioGallery() {
                   <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
                   <p className="text-sm mb-4">{item.description}</p>
                   <p className="text-sm mb-4 text-gray-300">Location: {item.location}</p>
-                  <span className="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-700 transition-colors cursor-pointer">
+                  <span className="inline-block bg-[#0C3B2E] text-white px-4 py-2 rounded-full text-sm hover:bg-blue-700 transition-colors cursor-pointer">
                     View Project
                   </span>
                 </div>

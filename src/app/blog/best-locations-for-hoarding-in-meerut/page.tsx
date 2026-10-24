@@ -28,13 +28,13 @@ export const metadata: Metadata = {
 
 export default function BestLocationsBlog() {
   return (
-    <article className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-white">
+    <article className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-[#EEE4DA]">
       {/* Breadcrumb */}
       <nav className="flex mb-8 text-sm" aria-label="Breadcrumb">
         <ol className="inline-flex items-center space-x-1 md:space-x-3">
-          <li><Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link></li>
+          <li><Link href="/" className="text-[#C8A49F] hover:text-[#0C3B2E]">Home</Link></li>
           <li><span className="mx-2 text-gray-400">/</span></li>
-          <li><Link href="/blog" className="text-gray-700 hover:text-blue-600">Blog</Link></li>
+          <li><Link href="/blog" className="text-[#C8A49F] hover:text-[#0C3B2E]">Blog</Link></li>
           <li><span className="mx-2 text-gray-400">/</span></li>
           <li className="text-gray-500">Best Stage & Venue Decoration Locations Khatauli</li>
         </ol>
@@ -42,7 +42,7 @@ export default function BestLocationsBlog() {
 
       {/* Header */}
       <header className="mb-8">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Best Locations for Stage & Venue Decoration Wedding Decoration in Khatauli: Top 20 Spots</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#4D0E13]">Best Locations for Stage & Venue Decoration Wedding Decoration in Khatauli: Top 20 Spots</h1>
         <div className="flex items-center text-gray-500 text-sm mb-6">
           <span>Published: March 10, 2024</span>
           <span className="mx-2">•</span>
@@ -222,12 +222,12 @@ export default function BestLocationsBlog() {
         <h2>Conclusion</h2>
         <p>Khatauli offers diverse Stage & Venue Decoration locations to suit every Wedding Decoration objective. Whether you need mass reach on Delhi Road or targeted visibility in specific markets, the right location makes all the difference. At Mahadev Events Khatauli, we have access to premium Stage & Venue Decoration spots across all these locations.</p>
 
-        <div className="bg-blue-50 p-6 rounded-lg my-8">
+        <div className="bg-[#0C3B2E]/10 p-6 rounded-lg my-8">
           <h3 className="text-2xl font-bold mb-3">Need Help Choosing the Perfect Spot?</h3>
           <p className="mb-4">Our team can show you available locations with photos, traffic data, and visibility analysis. Contact us for a free consultation.</p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <Link href="/contact" className="bg-blue-600 text-white px-6 py-2 rounded-lg text-center hover:bg-blue-700">Get Free Quote</Link>
-            <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="bg-white text-blue-600 border border-blue-600 px-6 py-2 rounded-lg text-center hover:bg-blue-50">View Stage & Venue Decoration Services</Link>
+            <Link href="/contact" className="bg-[#0C3B2E] text-white px-6 py-2 rounded-lg text-center hover:bg-blue-700">Get Free Quote</Link>
+            <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] text-[#0C3B2E] border border-blue-600 px-6 py-2 rounded-lg text-center hover:bg-[#0C3B2E]/10">View Stage & Venue Decoration Services</Link>
           </div>
         </div>
 
@@ -247,11 +247,11 @@ export default function BestLocationsBlog() {
       <section className="mt-12 pt-8 border-t">
         <h3 className="text-2xl font-bold mb-6">Related Articles</h3>
         <div className="grid md:grid-cols-2 gap-6">
-          <Link href="/blog/benefits-of-Stage & Venue Decoration-Wedding Decoration" className="block bg-gray-50 p-4 rounded-lg hover:shadow-md transition">
+          <Link href="/blog/benefits-of-Stage & Venue Decoration-Wedding Decoration" className="block bg-[#D8C4AC] p-4 rounded-lg hover:shadow-md transition">
             <h4 className="font-semibold text-lg mb-2">Top 10 Benefits of Stage & Venue Decoration Wedding Decoration</h4>
             <p className="text-gray-600 text-sm">Why Stage & Venue Decorations are essential for your business</p>
           </Link>
-          <Link href="/blog/outdoor-Wedding Decoration-cost-guide-2024" className="block bg-gray-50 p-4 rounded-lg hover:shadow-md transition">
+          <Link href="/blog/outdoor-Wedding Decoration-cost-guide-2024" className="block bg-[#D8C4AC] p-4 rounded-lg hover:shadow-md transition">
             <h4 className="font-semibold text-lg mb-2">Outdoor Wedding Decoration Cost Guide 2024</h4>
             <p className="text-gray-600 text-sm">Complete pricing breakdown for all media</p>
           </Link>

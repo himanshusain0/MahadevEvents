@@ -40,10 +40,10 @@ export default function Unipole({
         )}
         
         {/* Stage & Venue Decoration Frame Details */}
-        <div className="absolute top-0 left-0 w-full h-2 bg-yellow-400"></div>
-        <div className="absolute bottom-0 left-0 w-full h-2 bg-yellow-400"></div>
-        <div className="absolute left-0 top-0 h-full w-2 bg-yellow-400"></div>
-        <div className="absolute right-0 top-0 h-full w-2 bg-yellow-400"></div>
+        <div className="absolute top-0 left-0 w-full h-2 bg-[#4D0E13]"></div>
+        <div className="absolute bottom-0 left-0 w-full h-2 bg-[#4D0E13]"></div>
+        <div className="absolute left-0 top-0 h-full w-2 bg-[#4D0E13]"></div>
+        <div className="absolute right-0 top-0 h-full w-2 bg-[#4D0E13]"></div>
         
         {/* Bolts/Nails for realistic effect */}
         <div className="absolute top-2 left-2 w-3 h-3 bg-gray-600 rounded-full"></div>

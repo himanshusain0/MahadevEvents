@@ -28,13 +28,13 @@ export const metadata: Metadata = {
 
 export default function WallPaintingComparisonBlog() {
   return (
-    <article className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-white">
+    <article className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-[#EEE4DA]">
       {/* Breadcrumb */}
       <nav className="flex mb-8 text-sm" aria-label="Breadcrumb">
         <ol className="inline-flex items-center space-x-1 md:space-x-3">
-          <li><Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link></li>
+          <li><Link href="/" className="text-[#C8A49F] hover:text-[#0C3B2E]">Home</Link></li>
           <li><span className="mx-2 text-gray-400">/</span></li>
-          <li><Link href="/blog" className="text-gray-700 hover:text-blue-600">Blog</Link></li>
+          <li><Link href="/blog" className="text-[#C8A49F] hover:text-[#0C3B2E]">Blog</Link></li>
           <li><span className="mx-2 text-gray-400">/</span></li>
           <li className="text-gray-500">Theme Decoration vs Traditional Ads</li>
         </ol>
@@ -42,7 +42,7 @@ export default function WallPaintingComparisonBlog() {
 
       {/* Header */}
       <header className="mb-8">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Theme Decoration vs Traditional Wedding Decoration: Which is Better for Your Business?</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#4D0E13]">Theme Decoration vs Traditional Wedding Decoration: Which is Better for Your Business?</h1>
         <div className="flex items-center text-gray-500 text-sm mb-6">
           <span>Published: March 5, 2024</span>
           <span className="mx-2">•</span>
@@ -162,7 +162,7 @@ export default function WallPaintingComparisonBlog() {
         </div>
 
         <h2>When to Choose Traditional Stage & Venue Decoration</h2>
-        <div className="bg-blue-50 p-6 rounded-lg my-6">
+        <div className="bg-[#0C3B2E]/10 p-6 rounded-lg my-6">
           <h3 className="text-xl font-bold mb-3">Ideal Scenarios:</h3>
           <ul className="space-y-2">
             <li>✓ <strong>Short-term campaigns:</strong> Product launches, seasonal promotions</li>
@@ -200,12 +200,12 @@ export default function WallPaintingComparisonBlog() {
         <p>Theme Decoration is the clear winner for long-term, cost-effective brand building. Traditional Stage & Venue Decorations excel for short-term, flexible campaigns. The right choice depends on your specific goals, budget, and timeline.</p>
         <p>For businesses in Khatauli and Khatauli looking to establish a lasting presence, Theme Decoration offers unbeatable value. For dynamic promotions requiring frequent changes, Stage & Venue Decorations remain the go-to choice.</p>
 
-        <div className="bg-purple-50 p-6 rounded-lg my-8">
+        <div className="bg-[#BB8A52]/10 p-6 rounded-lg my-8">
           <h3 className="text-2xl font-bold mb-3">Need Expert Advice?</h3>
           <p className="mb-4">Our team can help you choose the right Wedding Decoration mix for your specific needs. Contact us for a free consultation.</p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <Link href="/contact" className="bg-purple-600 text-white px-6 py-2 rounded-lg text-center hover:bg-purple-700">Get Free Consultation</Link>
-            <Link href="/services/digital-wall-painting-Khatauli" className="bg-white text-purple-600 border border-purple-600 px-6 py-2 rounded-lg text-center hover:bg-purple-50">Learn About Wall Painting</Link>
+            <Link href="/contact" className="bg-[#BB8A52] text-white px-6 py-2 rounded-lg text-center hover:bg-purple-700">Get Free Consultation</Link>
+            <Link href="/services/digital-wall-painting-Khatauli" className="bg-[#EEE4DA] text-[#BB8A52] border border-purple-600 px-6 py-2 rounded-lg text-center hover:bg-[#BB8A52]/10">Learn About Wall Painting</Link>
           </div>
         </div>
 
@@ -228,11 +228,11 @@ export default function WallPaintingComparisonBlog() {
       <section className="mt-12 pt-8 border-t">
         <h3 className="text-2xl font-bold mb-6">Related Articles</h3>
         <div className="grid md:grid-cols-2 gap-6">
-          <Link href="/blog/benefits-of-Stage & Venue Decoration-Wedding Decoration" className="block bg-gray-50 p-4 rounded-lg hover:shadow-md transition">
+          <Link href="/blog/benefits-of-Stage & Venue Decoration-Wedding Decoration" className="block bg-[#D8C4AC] p-4 rounded-lg hover:shadow-md transition">
             <h4 className="font-semibold text-lg mb-2">Top 10 Benefits of Stage & Venue Decoration Wedding Decoration</h4>
             <p className="text-gray-600 text-sm">Why Stage & Venue Decorations are essential for your business</p>
           </Link>
-          <Link href="/blog/outdoor-Wedding Decoration-cost-guide-2024" className="block bg-gray-50 p-4 rounded-lg hover:shadow-md transition">
+          <Link href="/blog/outdoor-Wedding Decoration-cost-guide-2024" className="block bg-[#D8C4AC] p-4 rounded-lg hover:shadow-md transition">
             <h4 className="font-semibold text-lg mb-2">Outdoor Wedding Decoration Cost Guide 2024</h4>
             <p className="text-gray-600 text-sm">Complete pricing breakdown for all media</p>
           </Link>

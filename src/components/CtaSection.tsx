@@ -18,17 +18,17 @@ export default function CtaSection() {
         </p>
 
         <motion.div className="flex gap-3 justify-center items-center" initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: false, amount: 0.3 }} transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}>
-          <Link href="/contact" className="w-1/2 md:w-auto text-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-4 md:py-4 md:px-10 rounded-full text-xs md:text-lg transition duration-300 shadow-lg hover:shadow-xl">Contact Us</Link>
-          <Link href="/gallery" className="w-1/2 md:w-auto text-center border-2 border-white hover:bg-white hover:text-gray-900 text-white font-bold py-3 px-4 md:py-4 md:px-10 rounded-full text-xs md:text-lg transition duration-300">View Our Work</Link>
+          <Link href="/contact" className="w-1/2 md:w-auto text-center bg-yellow-500 hover:bg-yellow-600 text-[#4D0E13] font-bold py-3 px-4 md:py-4 md:px-10 rounded-full text-xs md:text-lg transition duration-300 shadow-lg hover:shadow-xl">Contact Us</Link>
+          <Link href="/gallery" className="w-1/2 md:w-auto text-center border-2 border-white hover:bg-[#EEE4DA] hover:text-[#4D0E13] text-white font-bold py-3 px-4 md:py-4 md:px-10 rounded-full text-xs md:text-lg transition duration-300">View Our Work</Link>
         </motion.div>
 
         <motion.div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: false, amount: 0.5 }} transition={{ duration: 0.6, delay: 0.3 }}>
           <div className="flex items-center gap-2">
-            <Mail className="w-5 h-5 text-yellow-400" />
+            <Mail className="w-5 h-5 text-[#4D0E13]" />
             <span className="font-semibold text-white">Email:</span>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
-            <a href="mailto:khataulimahadevevents@gmail.com" className="text-white transition-all duration-200 hover:text-yellow-400 hover:scale-105 hover:font-semibold text-sm sm:text-base">
+            <a href="mailto:khataulimahadevevents@gmail.com" className="text-white transition-all duration-200 hover:text-[#4D0E13] hover:scale-105 hover:font-semibold text-sm sm:text-base">
               khataulimahadevevents@gmail.com
             </a>
           </div>
@@ -52,7 +52,7 @@ export default function CtaSection() {
         </motion.div>
 
         <motion.div className="mt-10 text-xs md:text-sm opacity-80" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: false, amount: 0.5 }} transition={{ duration: 0.8, delay: 0.6 }}>
-          <Link href="https://www.instagram.com/mahadev_evants_khatauli?vrfl=MTNndGwwbm9pcTE1dQ==" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition duration-300">
+          <Link href="https://www.instagram.com/mahadev_evants_khatauli?vrfl=MTNndGwwbm9pcTE1dQ==" target="_blank" rel="noopener noreferrer" className="hover:text-[#4D0E13] transition duration-300">
             Follow Mahadev Events on Instagram
           </Link>
         </motion.div>

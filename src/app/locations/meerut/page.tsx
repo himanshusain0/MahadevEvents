@@ -20,19 +20,19 @@ export default function KhatauliLocationPage() {
 
         <h2>Complete Wedding Decoration Services in Khatauli</h2>
         <div className="grid md:grid-cols-2 gap-6 my-8">
-          <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="block p-6 bg-white border rounded-xl hover:shadow-lg transition">
+          <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="block p-6 bg-[#EEE4DA] border rounded-xl hover:shadow-lg transition">
             <h3 className="text-2xl font-bold mb-2">Stage & Venue Decoration Wedding Decoration Khatauli</h3>
             <p className="text-gray-600">Premium Floral Decoration spaces at Delhi Road, Roorkee Road, Garh Road and more</p>
           </Link>
-          <Link href="/services/digital-wall-painting-Khatauli" className="block p-6 bg-white border rounded-xl hover:shadow-lg transition">
+          <Link href="/services/digital-wall-painting-Khatauli" className="block p-6 bg-[#EEE4DA] border rounded-xl hover:shadow-lg transition">
             <h3 className="text-2xl font-bold mb-2">Theme Decoration Khatauli</h3>
             <p className="text-gray-600">Cost-effective long-term wall advertisements across the city</p>
           </Link>
-          <Link href="/services/Floral Decoration-Wedding Decoration-Khatauli" className="block p-6 bg-white border rounded-xl hover:shadow-lg transition">
+          <Link href="/services/Floral Decoration-Wedding Decoration-Khatauli" className="block p-6 bg-[#EEE4DA] border rounded-xl hover:shadow-lg transition">
             <h3 className="text-2xl font-bold mb-2">Floral Decoration Wedding Decoration Khatauli</h3>
             <p className="text-gray-600">Large format outdoor displays on highways and main roads</p>
           </Link>
-          <Link href="/services/vehicle-branding-Khatauli" className="block p-6 bg-white border rounded-xl hover:shadow-lg transition">
+          <Link href="/services/vehicle-branding-Khatauli" className="block p-6 bg-[#EEE4DA] border rounded-xl hover:shadow-lg transition">
             <h3 className="text-2xl font-bold mb-2">Vehicle Branding Khatauli</h3>
             <p className="text-gray-600">Mobile Wedding Decoration that travels across the city</p>
           </Link>
@@ -72,25 +72,25 @@ export default function KhatauliLocationPage() {
         <p>Yes, we provide Wedding Decoration services across <Link href="/locations/muzaffarnagar">Muzaffarnagar</Link>, <Link href="/locations/shamli">Shamli</Link>, <Link href="/locations/saharanpur">Saharanpur</Link>, <Link href="/locations/baghpat">Baghpat</Link>, Hapur, and Delhi Khatauli. We have Stage & Venue Decoration and wall painting locations in all these cities.</p>
       </div>
 
-      <section className="mt-16 bg-blue-50 p-8 rounded-2xl">
+      <section className="mt-16 bg-[#0C3B2E]/10 p-8 rounded-2xl">
         <h2 className="text-3xl font-bold mb-6">Our Wedding Decoration Services in Khatauli</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="bg-white p-4 rounded-lg text-center hover:shadow-md">
+          <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] p-4 rounded-lg text-center hover:shadow-md">
             Stage & Venue Decoration Wedding Decoration
           </Link>
-          <Link href="/services/digital-wall-painting-Khatauli" className="bg-white p-4 rounded-lg text-center hover:shadow-md">
+          <Link href="/services/digital-wall-painting-Khatauli" className="bg-[#EEE4DA] p-4 rounded-lg text-center hover:shadow-md">
             Theme Decoration
           </Link>
-          <Link href="/services/Floral Decoration-Wedding Decoration-Khatauli" className="bg-white p-4 rounded-lg text-center hover:shadow-md">
+          <Link href="/services/Floral Decoration-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] p-4 rounded-lg text-center hover:shadow-md">
             Floral Decoration Wedding Decoration
           </Link>
-          <Link href="/services/vehicle-branding-Khatauli" className="bg-white p-4 rounded-lg text-center hover:shadow-md">
+          <Link href="/services/vehicle-branding-Khatauli" className="bg-[#EEE4DA] p-4 rounded-lg text-center hover:shadow-md">
             Vehicle Branding
           </Link>
-          <Link href="/services/flex-printing-Khatauli" className="bg-white p-4 rounded-lg text-center hover:shadow-md">
+          <Link href="/services/flex-printing-Khatauli" className="bg-[#EEE4DA] p-4 rounded-lg text-center hover:shadow-md">
             Flex Printing
           </Link>
-          <Link href="/services/led-display-Wedding Decoration-Khatauli" className="bg-white p-4 rounded-lg text-center hover:shadow-md">
+          <Link href="/services/led-display-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] p-4 rounded-lg text-center hover:shadow-md">
             LED Displays
           </Link>
         </div>

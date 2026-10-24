@@ -81,7 +81,7 @@ export default function ContactSection() {
 
   return (
     <>
-      <section className="w-full py-20 bg-gray-50">
+      <section className="w-full py-20 bg-[#D8C4AC]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Header */}
           <div className="text-center mb-16">
@@ -89,7 +89,7 @@ export default function ContactSection() {
               Mahadev Events
             </p>
 
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#4D0E13]">
               Get In Touch
             </h1>
 
@@ -104,7 +104,7 @@ export default function ContactSection() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold mb-8 text-gray-900">
+              <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">
                 Contact Information
               </h2>
 
@@ -206,7 +206,7 @@ export default function ContactSection() {
 
                 {/* Instagram */}
                 <div className="flex items-start gap-4">
-                  <Instagram className="w-6 h-6 text-pink-600 mt-1 flex-shrink-0" />
+                  <Instagram className="w-6 h-6 text-[#C8A49F] mt-1 flex-shrink-0" />
 
                   <div>
                     <h3 className="font-semibold text-gray-600 text-lg mb-1">
@@ -217,7 +217,7 @@ export default function ContactSection() {
                       href="https://www.instagram.com/mahadev_evants_khatauli?vrfl=MTNndGwwbm9pcTE1dQ=="
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-black transition-all duration-200 hover:text-pink-600 hover:font-semibold break-all"
+                      className="text-black transition-all duration-200 hover:text-[#C8A49F] hover:font-semibold break-all"
                     >
                       @mahadev_evants_khatauli
                     </a>
@@ -242,8 +242,8 @@ export default function ContactSection() {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <h2 className="text-2xl font-bold mb-6 text-gray-900">
+            <div className="bg-[#EEE4DA] rounded-2xl p-8 shadow-lg">
+              <h2 className="text-2xl font-bold mb-6 text-[#4D0E13]">
                 Send us a Message
               </h2>
 
@@ -252,7 +252,7 @@ export default function ContactSection() {
                   <div>
                     <label
                       htmlFor="name"
-                      className="block text-sm font-medium text-gray-700 mb-2"
+                      className="block text-sm font-medium text-[#C8A49F] mb-2"
                     >
                       Full Name *
                     </label>
@@ -272,7 +272,7 @@ export default function ContactSection() {
                   <div>
                     <label
                       htmlFor="email"
-                      className="block text-sm font-medium text-gray-700 mb-2"
+                      className="block text-sm font-medium text-[#C8A49F] mb-2"
                     >
                       Email Address *
                     </label>
@@ -294,7 +294,7 @@ export default function ContactSection() {
                   <div>
                     <label
                       htmlFor="phone"
-                      className="block text-sm font-medium text-gray-700 mb-2"
+                      className="block text-sm font-medium text-[#C8A49F] mb-2"
                     >
                       Phone Number
                     </label>
@@ -313,7 +313,7 @@ export default function ContactSection() {
                   <div>
                     <label
                       htmlFor="company"
-                      className="block text-sm font-medium text-gray-700 mb-2"
+                      className="block text-sm font-medium text-[#C8A49F] mb-2"
                     >
                       Company Name
                     </label>
@@ -333,7 +333,7 @@ export default function ContactSection() {
                 <div>
                   <label
                     htmlFor="service"
-                    className="block text-sm font-medium text-gray-700 mb-2"
+                    className="block text-sm font-medium text-[#C8A49F] mb-2"
                   >
                     Service Interested In
                   </label>
@@ -373,7 +373,7 @@ export default function ContactSection() {
                 <div>
                   <label
                     htmlFor="message"
-                    className="block text-sm font-medium text-gray-700 mb-2"
+                    className="block text-sm font-medium text-[#C8A49F] mb-2"
                   >
                     Message *
                   </label>

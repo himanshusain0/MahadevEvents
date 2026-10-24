@@ -27,7 +27,7 @@ export default function Bipole({
       <div className="relative w-full flex justify-between items-end mb-2" style={{ width: `${width + 40}px` }}>
         {/* Left Light Mount */}
         <div className="flex flex-col items-center">
-          <div className="w-4 h-4 bg-yellow-400 rounded-full mb-1"></div>
+          <div className="w-4 h-4 bg-[#4D0E13] rounded-full mb-1"></div>
           <div className="w-2 h-6 bg-gray-600"></div>
         </div>
         
@@ -57,7 +57,7 @@ export default function Bipole({
 
         {/* Right Light Mount */}
         <div className="flex flex-col items-center">
-          <div className="w-4 h-4 bg-yellow-400 rounded-full mb-1"></div>
+          <div className="w-4 h-4 bg-[#4D0E13] rounded-full mb-1"></div>
           <div className="w-2 h-6 bg-gray-600"></div>
         </div>
       </div>
@@ -91,10 +91,10 @@ export default function Bipole({
         )}
         
         {/* Stage & Venue Decoration Frame Details */}
-        <div className="absolute top-0 left-0 w-full h-2 bg-yellow-400"></div>
-        <div className="absolute bottom-0 left-0 w-full h-2 bg-yellow-400"></div>
-        <div className="absolute left-0 top-0 h-full w-2 bg-yellow-400"></div>
-        <div className="absolute right-0 top-0 h-full w-2 bg-yellow-400"></div>
+        <div className="absolute top-0 left-0 w-full h-2 bg-[#4D0E13]"></div>
+        <div className="absolute bottom-0 left-0 w-full h-2 bg-[#4D0E13]"></div>
+        <div className="absolute left-0 top-0 h-full w-2 bg-[#4D0E13]"></div>
+        <div className="absolute right-0 top-0 h-full w-2 bg-[#4D0E13]"></div>
         
         {/* Bolts/Nails */}
         <div className="absolute top-2 left-2 w-3 h-3 bg-gray-600 rounded-full"></div>

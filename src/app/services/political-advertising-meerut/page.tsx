@@ -102,7 +102,7 @@ const successFactors = [
 
 export default function PoliticalWeddingDecorationPage() {
   return (
-    <main className="bg-white">
+    <main className="bg-[#EEE4DA]">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-orange-900 text-white">
         <div className="absolute inset-0 opacity-20">
@@ -137,7 +137,7 @@ export default function PoliticalWeddingDecorationPage() {
               </Link>
               <a 
                 href="#coverage" 
-                className="bg-transparent border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg font-semibold transition"
+                className="bg-transparent border-2 border-white hover:bg-[#EEE4DA]/10 px-8 py-3 rounded-lg font-semibold transition"
               >
                 View Coverage
               </a>
@@ -155,7 +155,7 @@ export default function PoliticalWeddingDecorationPage() {
             { number: "3000+", label: "Campaigns Executed", icon: "🎯" },
             { number: "24-48", label: "Hour Turnaround", icon: "⚡" },
           ].map((stat, i) => (
-            <div key={i} className="bg-white rounded-xl shadow-lg p-6 text-center border border-gray-100">
+            <div key={i} className="bg-[#EEE4DA] rounded-xl shadow-lg p-6 text-center border border-gray-100">
               <div className="text-3xl mb-2">{stat.icon}</div>
               <div className="text-2xl md:text-3xl font-bold text-orange-600">{stat.number}</div>
               <div className="text-gray-600 text-sm mt-1">{stat.label}</div>
@@ -171,11 +171,11 @@ export default function PoliticalWeddingDecorationPage() {
         <div className="grid md:grid-cols-2 gap-12 mb-20 items-center">
           <div>
             <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">Our Expertise</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-[#4D0E13]">
               Complete Political Wedding Decoration Solutions
             </h2>
             <p className="text-gray-600 text-lg mb-4 leading-relaxed">
-              <strong className="text-gray-900">Mahadev Events Khatauli</strong> offers comprehensive <strong className="text-gray-900">political Wedding Decoration solutions in Khatauli</strong> and across Western Uttar Pradesh. From massive Stage & Venue Decorations to wall paintings, banners to LED vans – we help candidates and parties connect with voters effectively.
+              <strong className="text-[#4D0E13]">Mahadev Events Khatauli</strong> offers comprehensive <strong className="text-[#4D0E13]">political Wedding Decoration solutions in Khatauli</strong> and across Western Uttar Pradesh. From massive Stage & Venue Decorations to wall paintings, banners to LED vans – we help candidates and parties connect with voters effectively.
             </p>
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
               With over 10 years of experience in political campaigns, we understand the unique requirements of election Wedding Decoration: speed, reach, impact, and strategic placement. Our team ensures your message reaches every corner of your constituency.
@@ -194,7 +194,7 @@ export default function PoliticalWeddingDecorationPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-700">{feature}</span>
+                  <span className="text-[#C8A49F]">{feature}</span>
                 </div>
               ))}
             </div>
@@ -212,7 +212,7 @@ export default function PoliticalWeddingDecorationPage() {
         <div className="mb-20">
           <div className="text-center mb-12">
             <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">Our Solutions</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Complete Campaign Toolkit
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -221,9 +221,9 @@ export default function PoliticalWeddingDecorationPage() {
           </div>
           <div className="grid md:grid-cols-4 gap-6">
             {politicalServices.slice(0, 8).map((item, i) => (
-              <div key={i} className="group bg-white border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <div key={i} className="group bg-[#EEE4DA] border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <div className="text-5xl mb-4">{item.icon}</div>
-                <h3 className="text-lg font-bold mb-2 text-gray-900">{item.type}</h3>
+                <h3 className="text-lg font-bold mb-2 text-[#4D0E13]">{item.type}</h3>
                 <p className="text-gray-600 text-sm mb-3">{item.desc}</p>
                 <ul className="space-y-1">
                   {item.features.map((feature, idx) => (
@@ -241,7 +241,7 @@ export default function PoliticalWeddingDecorationPage() {
         <div id="coverage" className="mb-20">
           <div className="text-center mb-12">
             <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">Coverage</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Political Wedding Decoration Coverage Areas
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -250,9 +250,9 @@ export default function PoliticalWeddingDecorationPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {coverageAreas.map((area, i) => (
-              <div key={i} className="group bg-white border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
+              <div key={i} className="group bg-[#EEE4DA] border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
                 <div className="text-3xl mb-3">🗺️</div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900">{area.region}</h3>
+                <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">{area.region}</h3>
                 <p className="text-orange-600 font-semibold text-sm mb-2">{area.constituencies}</p>
                 <p className="text-gray-600 text-sm mb-2">{area.areas}</p>
                 <p className="text-gray-500 text-xs">{area.villages}</p>
@@ -262,10 +262,10 @@ export default function PoliticalWeddingDecorationPage() {
         </div>
 
         {/* Campaign Timeline */}
-        <div className="mb-20 bg-gray-50 rounded-2xl p-8 md:p-12">
+        <div className="mb-20 bg-[#D8C4AC] rounded-2xl p-8 md:p-12">
           <div className="text-center mb-12">
             <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">Strategy</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Political Campaign Timeline
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -280,9 +280,9 @@ export default function PoliticalWeddingDecorationPage() {
               { phase: "Final Week (1 week before)", tasks: "Last-minute placements, polling booth materials, emergency supplies", icon: "⚡" },
               { phase: "Election Day", tasks: "Polling booth signage, agent materials, last-minute support", icon: "🗳️" }
             ].map((item, i) => (
-              <div key={i} className="bg-white rounded-xl p-5 border-l-4 border-orange-600 shadow-sm hover:shadow-md transition">
+              <div key={i} className="bg-[#EEE4DA] rounded-xl p-5 border-l-4 border-orange-600 shadow-sm hover:shadow-md transition">
                 <div className="text-3xl mb-2">{item.icon}</div>
-                <h3 className="font-bold text-sm mb-2 text-gray-900">{item.phase}</h3>
+                <h3 className="font-bold text-sm mb-2 text-[#4D0E13]">{item.phase}</h3>
                 <p className="text-xs text-gray-600 leading-relaxed">{item.tasks}</p>
               </div>
             ))}
@@ -293,7 +293,7 @@ export default function PoliticalWeddingDecorationPage() {
         <div className="mb-20">
           <div className="text-center mb-12">
             <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">Placement</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Strategic Locations for Political Ads
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -301,9 +301,9 @@ export default function PoliticalWeddingDecorationPage() {
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 rounded-xl p-6">
+            <div className="bg-[#D8C4AC] rounded-xl p-6">
               <div className="text-3xl mb-3">🏙️</div>
-              <h3 className="text-xl font-bold mb-4 text-gray-900">Urban Areas</h3>
+              <h3 className="text-xl font-bold mb-4 text-[#4D0E13]">Urban Areas</h3>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <span className="text-orange-600 font-bold">•</span>
@@ -323,9 +323,9 @@ export default function PoliticalWeddingDecorationPage() {
                 </li>
               </ul>
             </div>
-            <div className="bg-gray-50 rounded-xl p-6">
+            <div className="bg-[#D8C4AC] rounded-xl p-6">
               <div className="text-3xl mb-3">🌾</div>
-              <h3 className="text-xl font-bold mb-4 text-gray-900">Rural Areas</h3>
+              <h3 className="text-xl font-bold mb-4 text-[#4D0E13]">Rural Areas</h3>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <span className="text-orange-600 font-bold">•</span>
@@ -352,7 +352,7 @@ export default function PoliticalWeddingDecorationPage() {
         <div className="mb-20">
           <div className="text-center mb-12">
             <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">Winning Formula</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Key Success Factors for Political Campaigns
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -361,7 +361,7 @@ export default function PoliticalWeddingDecorationPage() {
           </div>
           <div className="grid md:grid-cols-4 gap-4">
             {successFactors.map((item, i) => (
-              <div key={i} className="bg-white border border-gray-200 rounded-xl p-5 text-center hover:shadow-md transition">
+              <div key={i} className="bg-[#EEE4DA] border border-gray-200 rounded-xl p-5 text-center hover:shadow-md transition">
                 <div className="text-3xl mb-2">{item.icon}</div>
                 <h3 className="font-bold text-orange-600 mb-2">{item.factor}</h3>
                 <p className="text-xs text-gray-600">{item.desc}</p>
@@ -374,7 +374,7 @@ export default function PoliticalWeddingDecorationPage() {
         <div className="mb-0">
           <div className="text-center mb-12">
             <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">FAQ</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Frequently Asked Questions
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -417,7 +417,7 @@ export default function PoliticalWeddingDecorationPage() {
               }
             ].map((faq, i) => (
               <div key={i} className="border border-gray-200 rounded-xl p-6 hover:shadow-md transition">
-                <h3 className="text-lg font-bold mb-3 text-gray-900">{faq.q}</h3>
+                <h3 className="text-lg font-bold mb-3 text-[#4D0E13]">{faq.q}</h3>
                 <p className="text-gray-600 leading-relaxed">{faq.a}</p>
               </div>
             ))}

@@ -28,17 +28,17 @@ export const metadata: Metadata = {
 
 export default function MuzaffarnagarLocationPage() {
   return (
-    <main className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-white">
+    <main className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-[#EEE4DA]">
       {/* Breadcrumb Navigation */}
       <nav className="flex mb-8 text-sm" aria-label="Breadcrumb">
         <ol className="inline-flex items-center space-x-1 md:space-x-3">
           <li className="inline-flex items-center">
-            <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
+            <Link href="/" className="text-[#C8A49F] hover:text-[#0C3B2E]">Home</Link>
           </li>
           <li>
             <div className="flex items-center">
               <span className="mx-2 text-gray-400">/</span>
-              <Link href="/locations" className="text-gray-700 hover:text-blue-600">Locations</Link>
+              <Link href="/locations" className="text-[#C8A49F] hover:text-[#0C3B2E]">Locations</Link>
             </div>
           </li>
           <li aria-current="page">
@@ -53,13 +53,13 @@ export default function MuzaffarnagarLocationPage() {
       {/* Hero Section */}
       <div className="grid md:grid-cols-2 gap-8 mb-16">
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#4D0E13]">
             Wedding Decoration Service Provider in Muzaffarnagar – Mahadev Events Khatauli
           </h1>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-[#C8A49F] mb-4">
             <strong>Mahadev Events Khatauli</strong> is your trusted <strong>Wedding Decoration Service Provider in Muzaffarnagar</strong>, providing comprehensive outdoor Wedding Decoration solutions across the district. We help Muzaffarnagar businesses reach their target audience through strategic Stage & Venue Decoration, Floral Decoration, and wall painting placements.
           </p>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-[#C8A49F] mb-4">
             From <strong>Stage & Venue Decoration Wedding Decoration on Khatauli Road</strong> to <strong>Theme Decoration in New Mandi</strong>, our team knows the Muzaffarnagar market inside out. We have the largest network of premium Wedding Decoration locations across the city and surrounding areas.
           </p>
           <div className="bg-green-50 p-6 rounded-lg mt-4">
@@ -97,40 +97,40 @@ export default function MuzaffarnagarLocationPage() {
 
       {/* Services in Muzaffarnagar */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Our Wedding Decoration Services in Muzaffarnagar</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Our Wedding Decoration Services in Muzaffarnagar</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Stage & Venue Decoration Wedding Decoration Muzaffarnagar</h3>
+          <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Stage & Venue Decoration Wedding Decoration Muzaffarnagar</h3>
             <p className="text-gray-600 mb-3">Premium Stage & Venue Decoration placements at Khatauli Road, Roorkee Road, Shamli Road, and major chowks. Sizes from 10x10 to 40x20 ft.</p>
             <span className="text-green-600 font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/digital-wall-painting-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Theme Decoration Muzaffarnagar</h3>
+          <Link href="/services/digital-wall-painting-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Theme Decoration Muzaffarnagar</h3>
             <p className="text-gray-600 mb-3">Cost-effective wall advertisements at high-traffic walls across Muzaffarnagar city and rural areas. 3-5 year durability.</p>
             <span className="text-green-600 font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/Floral Decoration-Wedding Decoration-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Floral Decoration Wedding Decoration Muzaffarnagar</h3>
+          <Link href="/services/Floral Decoration-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Floral Decoration Wedding Decoration Muzaffarnagar</h3>
             <p className="text-gray-600 mb-3">Large-format Floral Decorations on highways and main roads for maximum visibility. Multiple size options available.</p>
             <span className="text-green-600 font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/vehicle-branding-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Vehicle Branding Muzaffarnagar</h3>
+          <Link href="/services/vehicle-branding-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Vehicle Branding Muzaffarnagar</h3>
             <p className="text-gray-600 mb-3">Turn your fleet into moving Floral Decorations. Full and partial wraps for cars, trucks, buses, and commercial vehicles.</p>
             <span className="text-green-600 font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/flex-printing-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Flex Printing Muzaffarnagar</h3>
+          <Link href="/services/flex-printing-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Flex Printing Muzaffarnagar</h3>
             <p className="text-gray-600 mb-3">High-quality flex printing for banners, Stage & Venue Decorations, posters, and event materials. Fast turnaround, competitive rates.</p>
             <span className="text-green-600 font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/political-Wedding Decoration-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Political Wedding Decoration Muzaffarnagar</h3>
+          <Link href="/services/political-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Political Wedding Decoration Muzaffarnagar</h3>
             <p className="text-gray-600 mb-3">Complete campaign solutions for elections – Stage & Venue Decorations, wall paintings, banners, flags, and more.</p>
             <span className="text-green-600 font-medium">Learn more →</span>
           </Link>
@@ -139,7 +139,7 @@ export default function MuzaffarnagarLocationPage() {
 
       {/* Prime Wedding Decoration Locations */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Prime Wedding Decoration Locations in Muzaffarnagar</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Prime Wedding Decoration Locations in Muzaffarnagar</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             { name: "Khatauli Road", traffic: "70,000+ daily commuters", desc: "Main highway connecting to Khatauli. Premium Stage & Venue Decoration locations." },
@@ -155,8 +155,8 @@ export default function MuzaffarnagarLocationPage() {
             { name: "Bus Stand Area", traffic: "High footfall", desc: "Major transit point with daily commuters." },
             { name: "University Road", traffic: "25,000+ daily", desc: "Near educational institutions." },
           ].map((location, i) => (
-            <div key={i} className="border rounded-lg p-5 shadow-sm bg-white">
-              <h3 className="text-lg font-semibold mb-1 text-gray-900">{location.name}</h3>
+            <div key={i} className="border rounded-lg p-5 shadow-sm bg-[#EEE4DA]">
+              <h3 className="text-lg font-semibold mb-1 text-[#4D0E13]">{location.name}</h3>
               <p className="text-green-600 font-medium text-sm mb-2">{location.traffic}</p>
               <p className="text-gray-600 text-sm">{location.desc}</p>
             </div>
@@ -165,16 +165,16 @@ export default function MuzaffarnagarLocationPage() {
       </section>
 
       {/* About Muzaffarnagar Market */}
-      <section className="mb-16 bg-gray-50 p-8 rounded-2xl">
-        <h2 className="text-3xl font-bold mb-6 text-gray-900">About Wedding Decoration in Muzaffarnagar</h2>
+      <section className="mb-16 bg-[#D8C4AC] p-8 rounded-2xl">
+        <h2 className="text-3xl font-bold mb-6 text-[#4D0E13]">About Wedding Decoration in Muzaffarnagar</h2>
         <div className="prose prose-lg max-w-none">
-          <p className="text-gray-700 mb-4">
+          <p className="text-[#C8A49F] mb-4">
             Muzaffarnagar is a major city in western Uttar Pradesh with significant agricultural, industrial, and commercial importance. Its strategic location on the Delhi-Dehradun highway makes it a prime market for outdoor Wedding Decoration.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-[#C8A49F] mb-4">
             <strong>Key facts about Muzaffarnagar for advertisers:</strong>
           </p>
-          <ul className="list-disc pl-6 mb-4 text-gray-700">
+          <ul className="list-disc pl-6 mb-4 text-[#C8A49F]">
             <li><strong>Population:</strong> 500,000+ (city) with district population over 4 million</li>
             <li><strong>Commercial hub:</strong> New Mandi is one of the largest agricultural markets in UP</li>
             <li><strong>Industrial areas:</strong> Sugar, steel, paper, and manufacturing industries</li>
@@ -182,7 +182,7 @@ export default function MuzaffarnagarLocationPage() {
             <li><strong>Connectivity:</strong> NH-58 connects to Delhi, Khatauli, Haridwar, and Dehradun</li>
             <li><strong>Rural reach:</strong> Surrounded by hundreds of villages with significant voter population</li>
           </ul>
-          <p className="text-gray-700">
+          <p className="text-[#C8A49F]">
             Outdoor Wedding Decoration in Muzaffarnagar reaches a diverse audience – from business owners and professionals to students and rural consumers. Strategic Stage & Venue Decoration placements on highways and wall paintings in rural areas offer excellent ROI.
           </p>
         </div>
@@ -190,7 +190,7 @@ export default function MuzaffarnagarLocationPage() {
 
       {/* Assembly Constituencies */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Muzaffarnagar Assembly Constituencies We Serve</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Muzaffarnagar Assembly Constituencies We Serve</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
             "Muzaffarnagar", "Budhana", "Charthawal", "Khatauli", "Meerapur",
@@ -206,7 +206,7 @@ export default function MuzaffarnagarLocationPage() {
 
       {/* Gallery */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Our Work in Muzaffarnagar</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Our Work in Muzaffarnagar</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             { name: "Muzaffarnagar Khatauli Road", file: "Muzaffarnagar Khatauli Road.webp" },
@@ -240,22 +240,22 @@ export default function MuzaffarnagarLocationPage() {
 
       {/* Testimonials */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">What Muzaffarnagar Clients Say</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">What Muzaffarnagar Clients Say</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-white p-6 rounded-lg shadow-md border">
-            <p className="text-gray-700 italic mb-4">&quot;Mahadev Events Khatauli has been our Wedding Decoration partner for multiple election campaigns in Muzaffarnagar. Their Stage & Venue Decoration locations are strategic and their team delivers on time.&quot;</p>
-            <p className="font-semibold text-gray-900">– Political Leader, Muzaffarnagar</p>
+          <div className="bg-[#EEE4DA] p-6 rounded-lg shadow-md border">
+            <p className="text-[#C8A49F] italic mb-4">&quot;Mahadev Events Khatauli has been our Wedding Decoration partner for multiple election campaigns in Muzaffarnagar. Their Stage & Venue Decoration locations are strategic and their team delivers on time.&quot;</p>
+            <p className="font-semibold text-[#4D0E13]">– Political Leader, Muzaffarnagar</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md border">
-            <p className="text-gray-700 italic mb-4">&quot;We needed wall painting across rural Muzaffarnagar for our product launch. They covered 50+ villages efficiently and the quality was excellent.&quot;</p>
-            <p className="font-semibold text-gray-900">– FMCG Distributor, Muzaffarnagar</p>
+          <div className="bg-[#EEE4DA] p-6 rounded-lg shadow-md border">
+            <p className="text-[#C8A49F] italic mb-4">&quot;We needed wall painting across rural Muzaffarnagar for our product launch. They covered 50+ villages efficiently and the quality was excellent.&quot;</p>
+            <p className="font-semibold text-[#4D0E13]">– FMCG Distributor, Muzaffarnagar</p>
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Frequently Asked Questions</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Frequently Asked Questions</h2>
         <div className="space-y-6">
           {[
             {
@@ -284,16 +284,16 @@ export default function MuzaffarnagarLocationPage() {
             }
           ].map((faq, i) => (
             <div key={i} className="border-b border-gray-200 pb-6">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">{faq.q}</h3>
-              <p className="text-gray-700">{faq.a}</p>
+              <h3 className="text-xl font-semibold mb-3 text-[#4D0E13]">{faq.q}</h3>
+              <p className="text-[#C8A49F]">{faq.a}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* Nearby Locations */}
-      <section className="mb-16 bg-gray-50 p-8 rounded-2xl">
-        <h2 className="text-2xl font-bold mb-6 text-gray-900">Our Nearby Service Locations</h2>
+      <section className="mb-16 bg-[#D8C4AC] p-8 rounded-2xl">
+        <h2 className="text-2xl font-bold mb-6 text-[#4D0E13]">Our Nearby Service Locations</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           <Link href="/locations/Khatauli" className="text-green-600 hover:underline">Khatauli</Link>
           <Link href="/locations/shamli" className="text-green-600 hover:underline">Shamli</Link>

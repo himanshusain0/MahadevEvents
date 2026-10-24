@@ -28,17 +28,17 @@ export const metadata: Metadata = {
 
 export default function DelhiLocationPage() {
   return (
-    <main className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-white">
+    <main className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-[#EEE4DA]">
       {/* Breadcrumb Navigation */}
       <nav className="flex mb-8 text-sm" aria-label="Breadcrumb">
         <ol className="inline-flex items-center space-x-1 md:space-x-3">
           <li className="inline-flex items-center">
-            <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
+            <Link href="/" className="text-[#C8A49F] hover:text-[#0C3B2E]">Home</Link>
           </li>
           <li>
             <div className="flex items-center">
               <span className="mx-2 text-gray-400">/</span>
-              <Link href="/locations" className="text-gray-700 hover:text-blue-600">Locations</Link>
+              <Link href="/locations" className="text-[#C8A49F] hover:text-[#0C3B2E]">Locations</Link>
             </div>
           </li>
           <li aria-current="page">
@@ -53,13 +53,13 @@ export default function DelhiLocationPage() {
       {/* Hero Section */}
       <div className="grid md:grid-cols-2 gap-8 mb-16">
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#4D0E13]">
             Wedding Decoration Service Provider in Delhi – Mahadev Events Khatauli
           </h1>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-[#C8A49F] mb-4">
             <strong>Mahadev Events Khatauli</strong> is your trusted <strong>Wedding Decoration Service Provider in Delhi</strong>, providing comprehensive outdoor Wedding Decoration solutions across the capital. We help businesses, brands, and organizations reach their target audience through strategic Stage & Venue Decoration and Floral Decoration placements across all zones of Delhi.
           </p>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-[#C8A49F] mb-4">
             From <strong>Stage & Venue Decoration Wedding Decoration on Ring Road</strong> to <strong>Floral Decorations in Connaught Place</strong>, our team covers all areas of Delhi – North, South, East, West, and Central. We have premium Wedding Decoration locations on all major roads, flyovers, and commercial districts.
           </p>
           <div className="bg-red-50 p-6 rounded-lg mt-4">
@@ -95,7 +95,7 @@ export default function DelhiLocationPage() {
 
       {/* Delhi Zones Coverage */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Our Coverage Across Delhi</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Our Coverage Across Delhi</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             { 
@@ -135,10 +135,10 @@ export default function DelhiLocationPage() {
               key: "Government areas, diplomatic enclave"
             },
           ].map((zone, i) => (
-            <div key={i} className="border rounded-lg p-5 shadow-sm bg-white">
+            <div key={i} className="border rounded-lg p-5 shadow-sm bg-[#EEE4DA]">
               <h3 className="text-xl font-bold mb-2 text-red-700">{zone.zone}</h3>
-              <p className="text-gray-700 text-sm mb-2"><span className="font-semibold">Areas:</span> {zone.areas}</p>
-              <p className="text-gray-700 text-sm mb-2"><span className="font-semibold">Key roads:</span> {zone.roads}</p>
+              <p className="text-[#C8A49F] text-sm mb-2"><span className="font-semibold">Areas:</span> {zone.areas}</p>
+              <p className="text-[#C8A49F] text-sm mb-2"><span className="font-semibold">Key roads:</span> {zone.roads}</p>
               <p className="text-red-600 text-sm">{zone.key}</p>
             </div>
           ))}
@@ -147,7 +147,7 @@ export default function DelhiLocationPage() {
 
       {/* Prime Wedding Decoration Locations */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Prime Stage & Venue Decoration Locations in Delhi</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Prime Stage & Venue Decoration Locations in Delhi</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             { name: "Connaught Place", area: "Central Delhi", traffic: "Ultra-high footfall", desc: "Delhi's premier commercial center" },
@@ -163,10 +163,10 @@ export default function DelhiLocationPage() {
             { name: "Chandni Chowk", area: "Old Delhi", traffic: "Ultra-high footfall", desc: "Historic market" },
             { name: "India Gate", area: "New Delhi", traffic: "Tourist-heavy", desc: "Iconic landmark" },
           ].map((location, i) => (
-            <div key={i} className="border rounded-lg p-5 shadow-sm bg-white">
-              <h3 className="text-lg font-semibold mb-1 text-gray-900">{location.name}</h3>
+            <div key={i} className="border rounded-lg p-5 shadow-sm bg-[#EEE4DA]">
+              <h3 className="text-lg font-semibold mb-1 text-[#4D0E13]">{location.name}</h3>
               <p className="text-red-600 font-medium text-sm mb-1">{location.area}</p>
-              <p className="text-gray-700 text-sm mb-2">{location.traffic}</p>
+              <p className="text-[#C8A49F] text-sm mb-2">{location.traffic}</p>
               <p className="text-gray-600 text-sm">{location.desc}</p>
             </div>
           ))}
@@ -175,40 +175,40 @@ export default function DelhiLocationPage() {
 
       {/* Services in Delhi */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Our Wedding Decoration Services in Delhi</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Our Wedding Decoration Services in Delhi</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Stage & Venue Decoration Wedding Decoration Delhi</h3>
+          <Link href="/services/Stage & Venue Decoration-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Stage & Venue Decoration Wedding Decoration Delhi</h3>
             <p className="text-gray-600 mb-3">Premium Stage & Venue Decoration placements across all Delhi zones – Ring Road, Outer Ring Road, commercial districts, and markets.</p>
             <span className="text-red-600 font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/Floral Decoration-Wedding Decoration-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Floral Decoration Wedding Decoration Delhi</h3>
+          <Link href="/services/Floral Decoration-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Floral Decoration Wedding Decoration Delhi</h3>
             <p className="text-gray-600 mb-3">Large-format Floral Decorations at high-traffic locations including ITO, Connaught Place, and Delhi borders.</p>
             <span className="text-red-600 font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/led-display-Wedding Decoration-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">LED Display Wedding Decoration Delhi</h3>
+          <Link href="/services/led-display-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">LED Display Wedding Decoration Delhi</h3>
             <p className="text-gray-600 mb-3">Dynamic digital Floral Decorations with videos and rotating content at premium Delhi locations.</p>
             <span className="text-red-600 font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/vehicle-branding-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Vehicle Branding Delhi</h3>
+          <Link href="/services/vehicle-branding-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Vehicle Branding Delhi</h3>
             <p className="text-gray-600 mb-3">Mobile Wedding Decoration across Delhi with full fleet branding for maximum reach.</p>
             <span className="text-red-600 font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/flex-printing-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Flex Printing Delhi</h3>
+          <Link href="/services/flex-printing-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Flex Printing Delhi</h3>
             <p className="text-gray-600 mb-3">High-quality flex printing for Stage & Venue Decorations, banners, and event materials. Fast delivery across Delhi.</p>
             <span className="text-red-600 font-medium">Learn more →</span>
           </Link>
           
-          <Link href="/services/political-Wedding Decoration-Khatauli" className="bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Political Wedding Decoration Delhi</h3>
+          <Link href="/services/political-Wedding Decoration-Khatauli" className="bg-[#EEE4DA] border rounded-lg p-6 shadow-sm hover:shadow-md transition block">
+            <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">Political Wedding Decoration Delhi</h3>
             <p className="text-gray-600 mb-3">Complete campaign solutions for Delhi elections – Stage & Venue Decorations, banners, and promotional materials.</p>
             <span className="text-red-600 font-medium">Learn more →</span>
           </Link>
@@ -216,16 +216,16 @@ export default function DelhiLocationPage() {
       </section>
 
       {/* About Delhi Market */}
-      <section className="mb-16 bg-gray-50 p-8 rounded-2xl">
-        <h2 className="text-3xl font-bold mb-6 text-gray-900">About Wedding Decoration in Delhi</h2>
+      <section className="mb-16 bg-[#D8C4AC] p-8 rounded-2xl">
+        <h2 className="text-3xl font-bold mb-6 text-[#4D0E13]">About Wedding Decoration in Delhi</h2>
         <div className="prose prose-lg max-w-none">
-          <p className="text-gray-700 mb-4">
+          <p className="text-[#C8A49F] mb-4">
             Delhi, the capital of India, is one of the most important Wedding Decoration markets in the country. With its massive population, high vehicle density, and concentration of businesses, government institutions, and tourists, Delhi offers unparalleled opportunities for outdoor Wedding Decoration.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-[#C8A49F] mb-4">
             <strong>Key facts about Delhi for advertisers:</strong>
           </p>
-          <ul className="list-disc pl-6 mb-4 text-gray-700">
+          <ul className="list-disc pl-6 mb-4 text-[#C8A49F]">
             <li><strong>Population:</strong> 20+ million (city) – 2nd largest city in India</li>
             <li><strong>Vehicle population:</strong> 10+ million vehicles – highest in India</li>
             <li><strong>Tourist traffic:</strong> Millions of domestic and international tourists annually</li>
@@ -233,7 +233,7 @@ export default function DelhiLocationPage() {
             <li><strong>Government presence:</strong> Central and state government offices</li>
             <li><strong>Media capital:</strong> Headquarters of major media houses</li>
           </ul>
-          <p className="text-gray-700">
+          <p className="text-[#C8A49F]">
             Outdoor Wedding Decoration in Delhi reaches India&apos;s most influential and affluent audience. From policymakers and business leaders to tourists and the general public, your message gets seen by the right people.
           </p>
         </div>
@@ -241,9 +241,9 @@ export default function DelhiLocationPage() {
 
       {/* Regulatory Information */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Wedding Decoration Regulations in Delhi</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Wedding Decoration Regulations in Delhi</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-white p-6 rounded-lg border">
+          <div className="bg-[#EEE4DA] p-6 rounded-lg border">
             <h3 className="text-xl font-bold mb-4 text-red-700">Key Authorities</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
@@ -264,7 +264,7 @@ export default function DelhiLocationPage() {
               </li>
             </ul>
           </div>
-          <div className="bg-white p-6 rounded-lg border">
+          <div className="bg-[#EEE4DA] p-6 rounded-lg border">
             <h3 className="text-xl font-bold mb-4 text-red-700">Our Services</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
@@ -290,7 +290,7 @@ export default function DelhiLocationPage() {
 
       {/* FAQ Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900">Frequently Asked Questions</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#4D0E13]">Frequently Asked Questions</h2>
         <div className="space-y-6">
           {[
             {
@@ -319,16 +319,16 @@ export default function DelhiLocationPage() {
             }
           ].map((faq, i) => (
             <div key={i} className="border-b border-gray-200 pb-6">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">{faq.q}</h3>
-              <p className="text-gray-700">{faq.a}</p>
+              <h3 className="text-xl font-semibold mb-3 text-[#4D0E13]">{faq.q}</h3>
+              <p className="text-[#C8A49F]">{faq.a}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* Nearby Locations */}
-      <section className="mb-16 bg-gray-50 p-8 rounded-2xl">
-        <h2 className="text-2xl font-bold mb-6 text-gray-900">Our Other Service Locations</h2>
+      <section className="mb-16 bg-[#D8C4AC] p-8 rounded-2xl">
+        <h2 className="text-2xl font-bold mb-6 text-[#4D0E13]">Our Other Service Locations</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           <Link href="/locations/Khatauli" className="text-red-600 hover:underline">Khatauli</Link>
           <Link href="/locations/muzaffarnagar" className="text-red-600 hover:underline">Muzaffarnagar</Link>

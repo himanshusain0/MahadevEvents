@@ -43,7 +43,7 @@ export default function Hero() {
           <span className="text-red-700 font-bold drop-shadow-lg"> Khatauli</span>
         </p>
         <div className="text-lg md:text-xl mb-6 md:mb-8 max-w-2xl mx-auto">
-          <span className="text-yellow-400 font-bold text-2xl md:text-3xl">
+          <span className="text-[#D8C4AC] font-bold text-2xl md:text-3xl">
             {heroTexts[textIndex]}
           </span>
         </div>
@@ -52,13 +52,13 @@ export default function Hero() {
         <div className="flex flex-row gap-2 justify-center">
           <Link 
             href="/contact" 
-            className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-6 md:py-3 md:px-10 rounded-full text-sm md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl whitespace-nowrap min-w-[140px]"
+            className="bg-yellow-500 hover:bg-yellow-600 text-[#4D0E13] font-bold py-2 px-6 md:py-3 md:px-10 rounded-full text-sm md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl whitespace-nowrap min-w-[140px]"
           >
             Get Free Quote
           </Link>
           <Link 
             href="/services" 
-            className="border-2 border-white hover:bg-white hover:text-gray-900 text-white font-bold py-2 px-6 md:py-3 md:px-10 rounded-full text-sm md:text-lg transition-all duration-300 transform hover:scale-105 whitespace-nowrap min-w-[140px]"
+            className="border-2 border-white hover:bg-[#EEE4DA] hover:text-[#4D0E13] text-white font-bold py-2 px-6 md:py-3 md:px-10 rounded-full text-sm md:text-lg transition-all duration-300 transform hover:scale-105 whitespace-nowrap min-w-[140px]"
           >
             Our Services
           </Link>
@@ -84,7 +84,7 @@ export default function Hero() {
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10 animate-bounce">
         <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white rounded-full mt-2"></div>
+          <div className="w-1 h-3 bg-[#EEE4DA] rounded-full mt-2"></div>
         </div>
       </div>
     </section>

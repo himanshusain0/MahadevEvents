@@ -40,9 +40,9 @@ const FloralDecorationGallery = [
 
 export default function FloralDecorationWeddingDecorationPage() {
   return (
-    <main className="bg-white">
+    <main className="bg-[#EEE4DA]">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900 text-white">
+      <div className="relative bg-gradient-to-br from-[#0C3B2E] via-[#BB8A52] to-[#0C3B2E] text-white">
         <div className="absolute inset-0 opacity-20">
           <Image
             src="/images/portfolio/Muzaffarnagar Khatauli Road.webp"
@@ -69,13 +69,13 @@ export default function FloralDecorationWeddingDecorationPage() {
             <div className="flex flex-wrap gap-4">
               <Link 
                 href="/contact" 
-                className="bg-purple-600 hover:bg-purple-700 px-8 py-3 rounded-lg font-semibold transition shadow-lg"
+                className="bg-[#BB8A52] hover:bg-purple-700 px-8 py-3 rounded-lg font-semibold transition shadow-lg"
               >
                 Book a Floral Decoration
               </Link>
               <a 
                 href="#locations" 
-                className="bg-transparent border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg font-semibold transition"
+                className="bg-transparent border-2 border-white hover:bg-[#EEE4DA]/10 px-8 py-3 rounded-lg font-semibold transition"
               >
                 View Locations
               </a>
@@ -93,9 +93,9 @@ export default function FloralDecorationWeddingDecorationPage() {
             { number: "100K+", label: "Daily Impressions", icon: "👁️" },
             { number: "24/7", label: "Visibility", icon: "🕒" },
           ].map((stat, i) => (
-            <div key={i} className="bg-white rounded-xl shadow-lg p-6 text-center border border-gray-100">
+            <div key={i} className="bg-[#EEE4DA] rounded-xl shadow-lg p-6 text-center border border-gray-100">
               <div className="text-3xl mb-2">{stat.icon}</div>
-              <div className="text-2xl md:text-3xl font-bold text-purple-600">{stat.number}</div>
+              <div className="text-2xl md:text-3xl font-bold text-[#BB8A52]">{stat.number}</div>
               <div className="text-gray-600 text-sm mt-1">{stat.label}</div>
             </div>
           ))}
@@ -108,12 +108,12 @@ export default function FloralDecorationWeddingDecorationPage() {
         {/* What is Floral Decoration Wedding Decoration */}
         <div className="grid md:grid-cols-2 gap-12 mb-20 items-center">
           <div>
-            <span className="text-purple-600 font-semibold text-sm uppercase tracking-wide">What We Do</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-gray-900">
+            <span className="text-[#BB8A52] font-semibold text-sm uppercase tracking-wide">What We Do</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 text-[#4D0E13]">
               Premium Floral Decoration Wedding Decoration in Khatauli
             </h2>
             <p className="text-gray-600 text-lg mb-4 leading-relaxed">
-              <strong className="text-gray-900">Mahadev Events Khatauli</strong> offers premium <strong className="text-gray-900">Floral Decoration Wedding Decoration in Khatauli</strong> and across Western Uttar Pradesh. Our strategically placed Floral Decorations on highways, main roads, and commercial areas ensure your brand message reaches thousands daily.
+              <strong className="text-[#4D0E13]">Mahadev Events Khatauli</strong> offers premium <strong className="text-[#4D0E13]">Floral Decoration Wedding Decoration in Khatauli</strong> and across Western Uttar Pradesh. Our strategically placed Floral Decorations on highways, main roads, and commercial areas ensure your brand message reaches thousands daily.
             </p>
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
               From the bustling Delhi Road to the commercial Garh Road, from interstate highways to city intersections—our network of prime Floral Decoration locations delivers unmatched visibility for businesses of all sizes.
@@ -127,12 +127,12 @@ export default function FloralDecorationWeddingDecorationPage() {
                 "Complete permit handling & maintenance"
               ].map((feature, i) => (
                 <div key={i} className="flex items-center gap-3">
-                  <div className="w-5 h-5 bg-purple-600 rounded-full flex items-center justify-center">
+                  <div className="w-5 h-5 bg-[#BB8A52] rounded-full flex items-center justify-center">
                     <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-700">{feature}</span>
+                  <span className="text-[#C8A49F]">{feature}</span>
                 </div>
               ))}
             </div>
@@ -150,8 +150,8 @@ export default function FloralDecorationWeddingDecorationPage() {
         {/* Prime Floral Decoration Locations */}
         <div id="locations" className="mb-20">
           <div className="text-center mb-12">
-            <span className="text-purple-600 font-semibold text-sm uppercase tracking-wide">Locations</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#BB8A52] font-semibold text-sm uppercase tracking-wide">Locations</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Premium Floral Decoration Locations in Khatauli & Khatauli
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -215,10 +215,10 @@ export default function FloralDecorationWeddingDecorationPage() {
                 icon: "🏙️"
               }
             ].map((location, i) => (
-              <div key={i} className="group bg-white border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <div key={i} className="group bg-[#EEE4DA] border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <div className="text-4xl mb-4">{location.icon}</div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900">{location.name}</h3>
-                <p className="text-purple-600 font-semibold text-sm mb-3">{location.traffic}</p>
+                <h3 className="text-xl font-bold mb-2 text-[#4D0E13]">{location.name}</h3>
+                <p className="text-[#BB8A52] font-semibold text-sm mb-3">{location.traffic}</p>
                 <p className="text-gray-600 text-sm">{location.desc}</p>
               </div>
             ))}
@@ -228,8 +228,8 @@ export default function FloralDecorationWeddingDecorationPage() {
         {/* Floral Decoration Sizes */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <span className="text-purple-600 font-semibold text-sm uppercase tracking-wide">Sizes</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#BB8A52] font-semibold text-sm uppercase tracking-wide">Sizes</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Floral Decoration Sizes & Specifications
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -245,10 +245,10 @@ export default function FloralDecorationWeddingDecorationPage() {
               { size: "40x10 feet", best: "Prime highway locations", icon: "📏", features: "Dominant presence on highways" },
               { size: "40x20 feet", best: "Iconic landmark locations", icon: "📐", features: "Monumental brand presence" }
             ].map((item, i) => (
-              <div key={i} className="group bg-white border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
+              <div key={i} className="group bg-[#EEE4DA] border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
                 <div className="text-4xl mb-4">{item.icon}</div>
                 <h3 className="text-2xl font-bold text-purple-700 mb-2">{item.size}</h3>
-                <p className="text-gray-700 mb-2"><span className="font-semibold">Best for:</span> {item.best}</p>
+                <p className="text-[#C8A49F] mb-2"><span className="font-semibold">Best for:</span> {item.best}</p>
                 <p className="text-gray-600 text-sm">{item.features}</p>
               </div>
             ))}
@@ -258,8 +258,8 @@ export default function FloralDecorationWeddingDecorationPage() {
         {/* Floral Decoration Gallery */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <span className="text-purple-600 font-semibold text-sm uppercase tracking-wide">Portfolio</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#BB8A52] font-semibold text-sm uppercase tracking-wide">Portfolio</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Our Floral Decoration Projects
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -285,17 +285,17 @@ export default function FloralDecorationWeddingDecorationPage() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/gallery" className="inline-flex items-center gap-2 text-purple-600 font-semibold hover:text-purple-700 transition">
+            <Link href="/gallery" className="inline-flex items-center gap-2 text-[#BB8A52] font-semibold hover:text-purple-700 transition">
               View Full Portfolio <span>→</span>
             </Link>
           </div>
         </div>
 
         {/* Benefits Section */}
-        <div className="mb-20 bg-gray-50 rounded-2xl p-8 md:p-12">
+        <div className="mb-20 bg-[#D8C4AC] rounded-2xl p-8 md:p-12">
           <div className="text-center mb-12">
-            <span className="text-purple-600 font-semibold text-sm uppercase tracking-wide">Advantages</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#BB8A52] font-semibold text-sm uppercase tracking-wide">Advantages</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Why Choose Floral Decoration Wedding Decoration?
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -335,9 +335,9 @@ export default function FloralDecorationWeddingDecorationPage() {
                 desc: "Add QR codes and social handles to drive online traffic. Perfect for multi-channel campaigns." 
               }
             ].map((benefit, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition">
+              <div key={i} className="bg-[#EEE4DA] rounded-xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-md transition">
                 <div className="text-3xl mb-3">{benefit.icon}</div>
-                <h3 className="text-lg font-bold mb-2 text-gray-900">{benefit.title}</h3>
+                <h3 className="text-lg font-bold mb-2 text-[#4D0E13]">{benefit.title}</h3>
                 <p className="text-gray-600 text-sm">{benefit.desc}</p>
               </div>
             ))}
@@ -347,8 +347,8 @@ export default function FloralDecorationWeddingDecorationPage() {
         {/* Industries Served */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <span className="text-purple-600 font-semibold text-sm uppercase tracking-wide">Industries</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#BB8A52] font-semibold text-sm uppercase tracking-wide">Industries</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Industries We Serve
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -362,7 +362,7 @@ export default function FloralDecorationWeddingDecorationPage() {
               "Entertainment", "Political Campaigns", "Telecom", "Fitness",
               "Jewelry", "Furniture", "Travel & Tourism", "Local Businesses"
             ].map((industry, i) => (
-              <span key={i} className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-purple-100 hover:text-purple-700 transition cursor-default">
+              <span key={i} className="px-4 py-2 bg-gray-100 text-[#C8A49F] rounded-full text-sm font-medium hover:bg-purple-100 hover:text-purple-700 transition cursor-default">
                 {industry}
               </span>
             ))}
@@ -372,8 +372,8 @@ export default function FloralDecorationWeddingDecorationPage() {
         {/* FAQ Section */}
         <div className="mb-0">
           <div className="text-center mb-12">
-            <span className="text-purple-600 font-semibold text-sm uppercase tracking-wide">FAQ</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900">
+            <span className="text-[#BB8A52] font-semibold text-sm uppercase tracking-wide">FAQ</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-[#4D0E13]">
               Frequently Asked Questions
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -416,7 +416,7 @@ export default function FloralDecorationWeddingDecorationPage() {
               }
             ].map((faq, i) => (
               <div key={i} className="border border-gray-200 rounded-xl p-6 hover:shadow-md transition">
-                <h3 className="text-lg font-bold mb-3 text-gray-900">{faq.q}</h3>
+                <h3 className="text-lg font-bold mb-3 text-[#4D0E13]">{faq.q}</h3>
                 <p className="text-gray-600 leading-relaxed">{faq.a}</p>
               </div>
             ))}
