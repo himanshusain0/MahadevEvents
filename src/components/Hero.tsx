@@ -20,7 +20,7 @@ export default function Hero() {
     <section className="relative w-full h-screen flex items-center justify-center text-center text-white overflow-hidden">
       <div className="absolute z-0 w-full h-full">
         <Image
-          src="/images/website/herobg.jpg"
+          src="/images/website/herobg.png"
           alt="Mahadev Events Wedding Decoration Solutions"
           fill
           priority
