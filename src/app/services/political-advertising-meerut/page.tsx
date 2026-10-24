@@ -100,7 +100,7 @@ const successFactors = [
   { factor: "Local Connect", desc: "Messages in local language & context", icon: "🤝" },
 ];
 
-export default function PoliticalWedding DecorationPage() {
+export default function PoliticalWeddingDecorationPage() {
   return (
     <main className="bg-white">
       {/* Hero Section */}
