@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function BenefitsStage & Venue DecorationBlog() {
+export default function BenefitsStageVenueDecorationBlog() {
   return (
     <article className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-white">
       {/* Breadcrumb */}

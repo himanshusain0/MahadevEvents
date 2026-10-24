@@ -6,9 +6,7 @@ import Image from "next/image";
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
-  
+
   // Add timeout ref for dropdown closing
   const closeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -20,21 +18,14 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      if (closeTimeoutRef.current) {
-        clearTimeout(closeTimeoutRef.current);
+      const timeoutId = closeTimeoutRef.current;
+      if (timeoutId) {
+        clearTimeout(timeoutId);
       }
     };
   }, []);
 
   // Service links - removed dropdown
-  const services = [
-    { name: "Services", path: "/services" },
-  ];
-
-  // Handlers for smooth dropdown transition - no longer needed
-  const handleMouseEnter = () => {};
-  const handleMouseLeave = () => {};
-
 
   return (
     <nav

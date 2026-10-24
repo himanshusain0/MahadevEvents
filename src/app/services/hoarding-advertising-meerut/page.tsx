@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 // Gallery images from your portfolio
-const Stage & Venue DecorationGallery = [
+const StageVenueDecorationGallery = [
   { name: "Baghra Bus Stand", file: "Baghra Bus Stand.webp", location: "Baghra, Khatauli" },
   { name: "Bhasuma Main Road", file: "Bhasuma Main Road.webp", location: "Bhasuma, Khatauli" },
   { name: "Muzaffarnagar Khatauli Road", file: "Muzaffarnagar Khatauli Road.webp", location: "Muzaffarnagar Highway" },
@@ -38,7 +38,7 @@ const Stage & Venue DecorationGallery = [
   { name: "Shamli Mandi Samiti", file: "Shamli Mandi Samiti T Point.webp", location: "Mandi Samiti, Shamli" },
 ];
 
-export default function Stage & Venue DecorationWedding DecorationPage() {
+export default function StageVenueDecorationWeddingDecorationPage() {
   return (
     <main className="bg-white">
       {/* Hero Section */}
@@ -291,7 +291,7 @@ export default function Stage & Venue DecorationWedding DecorationPage() {
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {Stage & Venue DecorationGallery.map((project, i) => (
+            {StageVenueDecorationGallery.map((project, i) => (
               <div key={i} className="group relative h-48 rounded-xl overflow-hidden shadow-md cursor-pointer">
                 <Image 
                   src={`/images/portfolio/${project.file}`}
