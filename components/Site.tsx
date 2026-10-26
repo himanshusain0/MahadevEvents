@@ -427,10 +427,11 @@ export function CelebrationCircle3D() {
   useEffect(() => {
     const updateRadius = () => {
       const w = window.innerWidth;
-      if (w < 560) setRadius(270);
-      else if (w < 900) setRadius(360);
-      else if (w < 1200) setRadius(440);
-      else setRadius(500);
+      if (w < 440) setRadius(195);
+      else if (w < 640) setRadius(240);
+      else if (w < 900) setRadius(340);
+      else if (w < 1200) setRadius(430);
+      else setRadius(490);
     };
     updateRadius();
     window.addEventListener("resize", updateRadius);
@@ -715,7 +716,7 @@ export function WorkArchive() {
               key={photo.id}
               className={`stack-card ${isReverse ? "stack-card--reverse" : ""}`}
               style={{
-                top: "clamp(84px, 11vh, 108px)",
+                top: "clamp(68px, 9vh, 88px)",
                 zIndex: index + 1,
               }}
             >
